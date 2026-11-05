@@ -3,6 +3,10 @@
   "hotfixesFormat": null,
   "versions": [
     {
+      "id": "2.0",
+      "releasedAt": 1755881610000
+    },
+    {
       "id": "2.0.1",
       "releasedAt": 1756027590000
     },
@@ -108,7 +112,11 @@
       "releasedAt": 1792944945000
     },
     {
-      "id": ""2.9",
+      "id": "2.9",
+      "releasedAt": 1792945365000
+    },
+    {
+      "id": ""2.9.5",
       "releasedAt": 1792945365000,
       "promotions": {
         "downloads": {
