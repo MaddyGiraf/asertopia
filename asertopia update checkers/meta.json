@@ -3,6 +3,31 @@
   "hotfixesFormat": null,
   "versions": [
     {
+      "id": "2.5",
+      "releasedAt": 1775911425000
+    },
+    {
+      "id": "2.6",
+      "releasedAt": 1778785005000
+    },
+    {
+      "id": "2.6.5",
+      "releasedAt": 1783129905000
+    }, 
+    {
+      "id": "2.7",
+      "releasedAt": 1785681945000
+    },
+    {
+      "id": "2.7.4",
+      "releasedAt": 1785685305000
+    },
+    
+    {
+      "id": "2.8",
+      "releasedAt": 1789306005000
+    },
+    {
       "id": "2.9-B",
       "releasedAt": 1792944945000
     },
