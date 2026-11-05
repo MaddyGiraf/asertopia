@@ -3,11 +3,15 @@
   "hotfixesFormat": null,
   "versions": [
     {
+      "id": "2.93.91-fix",
+      "releasedAt": 1793800000000
+    },
+    {
       "id": "2.93.92",
       "releasedAt": 1793889573000,
       "promotions": {
         "downloads": {
-          "modrinth": "https://modrinth.com/modpack/asertopia/version/2.0.93.91-fix",
+          "modrinth": "https://modrinth.com/modpack/asertopia/versions"
         }
       }
     }
