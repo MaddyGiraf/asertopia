@@ -1,0 +1,279 @@
+# Modpack changelog
+
+_Generated automatically by What Changed? on 2026-11-07 14:15._
+
+Changes since 2026-11-07 14:09 (detected 2026-11-07 14:15)
+
+## Mods
+
+**Added (3)**
+
+- Butchery 4.5
+- ESL 1.1.3
+- XaeroLib 1.0.42
+
+**Updated (17)**
+
+- 3d-Skin-Layers 1.9.2 → 1.10.1
+- AmbientSounds 6.1.11 → 6.3.1
+- Create: New Age 1.1.4 → 1.1.7e+mc1.20.1
+- Distant Horizons 2.3.6-b → 2.4.5-b
+- EntityCulling 1.9.3 → 1.9.5
+- Fzzy Config 0.7.3+1.20.1+forge → 0.7.4+1.20.1+forge
+- ImmediatelyFast 1.5.2+1.20.4 → 1.5.3+1.20.4
+- Just Enough Items 15.20.0.127 → 15.20.0.129
+- Kotlin For Forge 4.11.0 → 4.12.0
+- ModernFix 5.25.1+mc1.20.1 → 5.25.2+mc1.20.1
+- [Moonlight Library](https://www.curseforge.com/minecraft/mc-mods/selene) 1.20-2.16.16 → 1.20-2.16.19
+- NotEnoughAnimations 1.10.6 → 1.11.1
+- Timeless & Classics Guns: Zero 1.1.6-hotfix → 1.1.7-hotfix
+- TRansition 1.0.8 → 1.0.11
+- TRender 1.0.8 → 1.0.10
+- Xaero's Minimap 25.2.10 → 25.3.2
+- Xaero's World Map 1.39.12 → 1.40.2
+
+**Removed (1)**
+
+- Butcher 3.6.1
+
+
+## Mobs & entities
+
+**New (1)**
+
+*Butchery (1)*
+
+- Turtle Shell `butchery:turtleshellboat`
+
+**Removed (11)**
+
+*Butcher (11)*
+
+- The Helper `butcher:thehelper`
+- Turtle Boat `butcher:shell_boat`
+- Zombie Cat `butcher:zombiecat`
+- Zombie Chicken `butcher:zombiechicken`
+- Zombie Cow `butcher:zombie_cow`
+- Zombie Fox `butcher:zombiefox`
+- Zombie Goat `butcher:zombiegoat`
+- Zombie Llama `butcher:zombiellama`
+- Zombie Panda `butcher:zombiepanda`
+- Zombie Pig `butcher:zombiepig`
+- Zombie Wolf `butcher:zombiewolf`
+
+## Config changes
+
+**Changed (6)**
+
+*Distant Horizons*
+
+- `DistantHorizons.toml`
+  - `client.advanced.debugging.openGl.glUploadMode`: - → `AUTO`
+  - `client.advanced.graphics.experimental.ignoredDimensionCsv`: - → `""`
+  - `client.advanced.graphics.overrideVanillaGraphicsSettings`: - → `true`
+  - `client.advanced.graphics.quality.dhFadeFarClipPlane`: - → `true`
+  - `client.advanced.graphics.ssao.fadeDistanceInBlocks`: - → `1600`
+  - `common.logging.globalChatMaxLevel`: - → `ERROR`
+  - `common.logging.globalFileMaxLevel`: - → `INFO`
+  - `common.logging.logConnectionConfigChangesToFile`: - → `WARN`
+  - `common.logging.logNetworkEventToFile`: - → `INFO`
+  - `common.logging.logRendererEventToFile`: - → `INFO`
+  - `common.logging.logRendererGLEventToChat`: - → `ERROR`
+  - `common.logging.logRendererGLEventToFile`: - → `INFO`
+  - `common.logging.logWorldGenChunkLoadEventToFile`: - → `INFO`
+  - `common.logging.logWorldGenEventToFile`: - → `INFO`
+  - `common.logging.warning.logGarbageCollectorWarning`: - → `true`
+  - `common.logging.warning.showSlowWorldGenSettingWarnings`: - → `true`
+  - `common.multiThreading.threadPriority`: - → `5`
+  - `common.worldGenerator.generationCenterChunkX`: - → `0`
+  - `common.worldGenerator.generationCenterChunkZ`: - → `0`
+  - `common.worldGenerator.generationMaxChunkRadius`: - → `0`
+  - `server.serverId`: - → `346398081`
+  - `server.serverKey`: - → `""`
+
+*FancyMenu*
+
+- `fancymenu/customization/join_multiplayer_screen_layout.txt`
+  - `loading_requirement_container_meta:07c41616-2e02-48e5-b2a3-978ecef2b10c-1767180933521] = [groups:][instances:.customization.action`: - → `backgroundoptions`
+  - `loading_requirement_container_meta:07c41616-2e02-48e5-b2a3-978ecef2b10c-1767180933521] = [groups:][instances:.customization.keepaspectratio`: - → `false`
+  - `loading_requirement_container_meta:07c41616-2e02-48e5-b2a3-978ecef2b10c-1767180933521] = [groups:][instances:.scroll_list_customization.apply_vanilla_background_blur`: - → `false`
+  - `loading_requirement_container_meta:07c41616-2e02-48e5-b2a3-978ecef2b10c-1767180933521] = [groups:][instances:.scroll_list_customization.preserve_scroll_list_header_footer_aspect_ratio`: - → `true`
+  - `loading_requirement_container_meta:07c41616-2e02-48e5-b2a3-978ecef2b10c-1767180933521] = [groups:][instances:.scroll_list_customization.render_scroll_list_footer_shadow`: - → `true`
+  - `loading_requirement_container_meta:07c41616-2e02-48e5-b2a3-978ecef2b10c-1767180933521] = [groups:][instances:.scroll_list_customization.render_scroll_list_header_shadow`: - → `true`
+  - `loading_requirement_container_meta:07c41616-2e02-48e5-b2a3-978ecef2b10c-1767180933521] = [groups:][instances:.scroll_list_customization.repeat_scroll_list_footer_texture`: - → `false`
+  - `loading_requirement_container_meta:07c41616-2e02-48e5-b2a3-978ecef2b10c-1767180933521] = [groups:][instances:.scroll_list_customization.repeat_scroll_list_header_texture`: - → `false`
+  - `loading_requirement_container_meta:07c41616-2e02-48e5-b2a3-978ecef2b10c-1767180933521] = [groups:][instances:.scroll_list_customization.show_screen_background_overlay_on_custom_background`: - → `false`
+  - `loading_requirement_container_meta:07c41616-2e02-48e5-b2a3-978ecef2b10c-1767180933521] = [groups:][instances:.scroll_list_customization.show_scroll_list_header_footer_preview_in_editor`: - → `false`
+  - `loading_requirement_container_meta:07c41616-2e02-48e5-b2a3-978ecef2b10c-1767180933521] = [groups:][instances:.vanilla_button.button_element_executable_block_identifier`: - → `c67f7557-67e4-4960-913b-cc06c971c431-1757999375079`
+  - `loading_requirement_container_meta:f5f2843b-65aa-472c-b009-cbb5a7f0aea6-1758085400345] = [groups:][instances:.customization.action`: `backgroundoptions` → -
+  - `loading_requirement_container_meta:f5f2843b-65aa-472c-b009-cbb5a7f0aea6-1758085400345] = [groups:][instances:.customization.keepaspectratio`: `false` → -
+  - `loading_requirement_container_meta:f5f2843b-65aa-472c-b009-cbb5a7f0aea6-1758085400345] = [groups:][instances:.scroll_list_customization.apply_vanilla_background_blur`: `false` → -
+  - `loading_requirement_container_meta:f5f2843b-65aa-472c-b009-cbb5a7f0aea6-1758085400345] = [groups:][instances:.scroll_list_customization.preserve_scroll_list_header_footer_aspect_ratio`: `true` → -
+  - `loading_requirement_container_meta:f5f2843b-65aa-472c-b009-cbb5a7f0aea6-1758085400345] = [groups:][instances:.scroll_list_customization.render_scroll_list_footer_shadow`: `true` → -
+  - `loading_requirement_container_meta:f5f2843b-65aa-472c-b009-cbb5a7f0aea6-1758085400345] = [groups:][instances:.scroll_list_customization.render_scroll_list_header_shadow`: `true` → -
+  - `loading_requirement_container_meta:f5f2843b-65aa-472c-b009-cbb5a7f0aea6-1758085400345] = [groups:][instances:.scroll_list_customization.repeat_scroll_list_footer_texture`: `false` → -
+  - `loading_requirement_container_meta:f5f2843b-65aa-472c-b009-cbb5a7f0aea6-1758085400345] = [groups:][instances:.scroll_list_customization.repeat_scroll_list_header_texture`: `false` → -
+  - `loading_requirement_container_meta:f5f2843b-65aa-472c-b009-cbb5a7f0aea6-1758085400345] = [groups:][instances:.scroll_list_customization.show_screen_background_overlay_on_custom_background`: `false` → -
+  - `loading_requirement_container_meta:f5f2843b-65aa-472c-b009-cbb5a7f0aea6-1758085400345] = [groups:][instances:.scroll_list_customization.show_scroll_list_header_footer_preview_in_editor`: `false` → -
+  - `loading_requirement_container_meta:f5f2843b-65aa-472c-b009-cbb5a7f0aea6-1758085400345] = [groups:][instances:.vanilla_button.button_element_executable_block_identifier`: `c67f7557-67e4-4960-913b-cc06c971c431-1757999375079` → -
+- `fancymenu/customization/title_screen_layout.txt`
+  - `loading_requirement_container_meta:81e8c20c-8e2e-4620-bdbb-79c7cbd1a6cf-1767435813786] = [groups:][instances:.customization.action`: - → `backgroundoptions`
+  - `loading_requirement_container_meta:81e8c20c-8e2e-4620-bdbb-79c7cbd1a6cf-1767435813786] = [groups:][instances:.customization.keepaspectratio`: - → `false`
+  - `loading_requirement_container_meta:81e8c20c-8e2e-4620-bdbb-79c7cbd1a6cf-1767435813786] = [groups:][instances:.element.anchor_point`: - → `mid-centered`
+  - `loading_requirement_container_meta:81e8c20c-8e2e-4620-bdbb-79c7cbd1a6cf-1767435813786] = [groups:][instances:.element.appearance_delay`: - → `no_delay`
+  - `loading_requirement_container_meta:81e8c20c-8e2e-4620-bdbb-79c7cbd1a6cf-1767435813786] = [groups:][instances:.element.appearance_delay_seconds`: - → `1.0`
+  - `loading_requirement_container_meta:81e8c20c-8e2e-4620-bdbb-79c7cbd1a6cf-1767435813786] = [groups:][instances:.element.auto_sizing`: - → `false`
+  - `loading_requirement_container_meta:81e8c20c-8e2e-4620-bdbb-79c7cbd1a6cf-1767435813786] = [groups:][instances:.element.auto_sizing_base_screen_height`: - → `976`
+  - `loading_requirement_container_meta:81e8c20c-8e2e-4620-bdbb-79c7cbd1a6cf-1767435813786] = [groups:][instances:.element.auto_sizing_base_screen_width`: - → `1920`
+  - `loading_requirement_container_meta:81e8c20c-8e2e-4620-bdbb-79c7cbd1a6cf-1767435813786] = [groups:][instances:.element.base_opacity`: - → `1.0`
+  - `loading_requirement_container_meta:81e8c20c-8e2e-4620-bdbb-79c7cbd1a6cf-1767435813786] = [groups:][instances:.element.element_loading_requirement_container_identifier`: - → `2462f85d-3d22-43d0-a76f-035d35b2ead8-1758086319296`
+  - `loading_requirement_container_meta:81e8c20c-8e2e-4620-bdbb-79c7cbd1a6cf-1767435813786] = [groups:][instances:.element.element_type`: - → `image`
+  - `loading_requirement_container_meta:81e8c20c-8e2e-4620-bdbb-79c7cbd1a6cf-1767435813786] = [groups:][instances:.element.fade_in_speed`: - → `1.0`
+  - `loading_requirement_container_meta:81e8c20c-8e2e-4620-bdbb-79c7cbd1a6cf-1767435813786] = [groups:][instances:.element.fade_in_v2`: - → `no_fading`
+  - `loading_requirement_container_meta:81e8c20c-8e2e-4620-bdbb-79c7cbd1a6cf-1767435813786] = [groups:][instances:.element.fade_out`: - → `no_fading`
+  - `loading_requirement_container_meta:81e8c20c-8e2e-4620-bdbb-79c7cbd1a6cf-1767435813786] = [groups:][instances:.element.fade_out_speed`: - → `1.0`
+  - `loading_requirement_container_meta:81e8c20c-8e2e-4620-bdbb-79c7cbd1a6cf-1767435813786] = [groups:][instances:.element.height`: - → `184`
+  - `loading_requirement_container_meta:81e8c20c-8e2e-4620-bdbb-79c7cbd1a6cf-1767435813786] = [groups:][instances:.element.image_tint`: - → `#FFFFFF`
+  - `loading_requirement_container_meta:81e8c20c-8e2e-4620-bdbb-79c7cbd1a6cf-1767435813786] = [groups:][instances:.element.instance_identifier`: - → `a7e3ea4a-9763-4cef-9dd9-229f2d63a512-1758086319296`
+  - `loading_requirement_container_meta:81e8c20c-8e2e-4620-bdbb-79c7cbd1a6cf-1767435813786] = [groups:][instances:.element.nine_slice_texture`: - → `false`
+  - `loading_requirement_container_meta:81e8c20c-8e2e-4620-bdbb-79c7cbd1a6cf-1767435813786] = [groups:][instances:.element.nine_slice_texture_border_x`: - → `5`
+  - `loading_requirement_container_meta:81e8c20c-8e2e-4620-bdbb-79c7cbd1a6cf-1767435813786] = [groups:][instances:.element.nine_slice_texture_border_y`: - → `5`
+  - `loading_requirement_container_meta:81e8c20c-8e2e-4620-bdbb-79c7cbd1a6cf-1767435813786] = [groups:][instances:.element.repeat_texture`: - → `false`
+  - `loading_requirement_container_meta:81e8c20c-8e2e-4620-bdbb-79c7cbd1a6cf-1767435813786] = [groups:][instances:.element.restart_animated_on_menu_load`: - → `false`
+  - `loading_requirement_container_meta:81e8c20c-8e2e-4620-bdbb-79c7cbd1a6cf-1767435813786] = [groups:][instances:.element.source`: - → `[source:local]/config/fancymenu/assets/minecraftasertopia.png`
+  - `loading_requirement_container_meta:81e8c20c-8e2e-4620-bdbb-79c7cbd1a6cf-1767435813786] = [groups:][instances:.element.stay_on_screen`: - → `false`
+  - `loading_requirement_container_meta:81e8c20c-8e2e-4620-bdbb-79c7cbd1a6cf-1767435813786] = [groups:][instances:.element.sticky_anchor`: - → `false`
+  - `loading_requirement_container_meta:81e8c20c-8e2e-4620-bdbb-79c7cbd1a6cf-1767435813786] = [groups:][instances:.element.stretch_x`: - → `false`
+  - `loading_requirement_container_meta:81e8c20c-8e2e-4620-bdbb-79c7cbd1a6cf-1767435813786] = [groups:][instances:.element.stretch_y`: - → `false`
+  - `loading_requirement_container_meta:81e8c20c-8e2e-4620-bdbb-79c7cbd1a6cf-1767435813786] = [groups:][instances:.element.width`: - → `281`
+  - `loading_requirement_container_meta:81e8c20c-8e2e-4620-bdbb-79c7cbd1a6cf-1767435813786] = [groups:][instances:.element.x`: - → `-141`
+  - `loading_requirement_container_meta:81e8c20c-8e2e-4620-bdbb-79c7cbd1a6cf-1767435813786] = [groups:][instances:.element.y`: - → `-157`
+  - `loading_requirement_container_meta:81e8c20c-8e2e-4620-bdbb-79c7cbd1a6cf-1767435813786] = [groups:][instances:.menu_background.background_type`: - → `image`
+  - `loading_requirement_container_meta:81e8c20c-8e2e-4620-bdbb-79c7cbd1a6cf-1767435813786] = [groups:][instances:.menu_background.image_path`: - → `[source:local]/config/fancymenu/assets/fondecran.png`
+  - `loading_requirement_container_meta:81e8c20c-8e2e-4620-bdbb-79c7cbd1a6cf-1767435813786] = [groups:][instances:.menu_background.instance_identifier`: - → `b1599f72-97e8-4e93-93b1-a99c437bc86a-1757955069727`
+  - `loading_requirement_container_meta:81e8c20c-8e2e-4620-bdbb-79c7cbd1a6cf-1767435813786] = [groups:][instances:.menu_background.invert_parallax`: - → `false`
+  - `loading_requirement_container_meta:81e8c20c-8e2e-4620-bdbb-79c7cbd1a6cf-1767435813786] = [groups:][instances:.menu_background.parallax`: - → `false`
+  - `loading_requirement_container_meta:81e8c20c-8e2e-4620-bdbb-79c7cbd1a6cf-1767435813786] = [groups:][instances:.menu_background.parallax_intensity`: - → `0.02`
+  - `loading_requirement_container_meta:81e8c20c-8e2e-4620-bdbb-79c7cbd1a6cf-1767435813786] = [groups:][instances:.menu_background.repeat_texture`: - → `false`
+  - `loading_requirement_container_meta:81e8c20c-8e2e-4620-bdbb-79c7cbd1a6cf-1767435813786] = [groups:][instances:.menu_background.restart_animated_on_menu_load`: - → `false`
+  - `loading_requirement_container_meta:81e8c20c-8e2e-4620-bdbb-79c7cbd1a6cf-1767435813786] = [groups:][instances:.menu_background.slide`: - → `false`
+  - `loading_requirement_container_meta:81e8c20c-8e2e-4620-bdbb-79c7cbd1a6cf-1767435813786] = [groups:][instances:.scroll_list_customization.apply_vanilla_background_blur`: - → `false`
+  - `loading_requirement_container_meta:81e8c20c-8e2e-4620-bdbb-79c7cbd1a6cf-1767435813786] = [groups:][instances:.scroll_list_customization.preserve_scroll_list_header_footer_aspect_ratio`: - → `true`
+  - `loading_requirement_container_meta:81e8c20c-8e2e-4620-bdbb-79c7cbd1a6cf-1767435813786] = [groups:][instances:.scroll_list_customization.render_scroll_list_footer_shadow`: - → `true`
+  - `loading_requirement_container_meta:81e8c20c-8e2e-4620-bdbb-79c7cbd1a6cf-1767435813786] = [groups:][instances:.scroll_list_customization.render_scroll_list_header_shadow`: - → `true`
+  - `loading_requirement_container_meta:81e8c20c-8e2e-4620-bdbb-79c7cbd1a6cf-1767435813786] = [groups:][instances:.scroll_list_customization.repeat_scroll_list_footer_texture`: - → `false`
+  - `loading_requirement_container_meta:81e8c20c-8e2e-4620-bdbb-79c7cbd1a6cf-1767435813786] = [groups:][instances:.scroll_list_customization.repeat_scroll_list_header_texture`: - → `false`
+  - `loading_requirement_container_meta:81e8c20c-8e2e-4620-bdbb-79c7cbd1a6cf-1767435813786] = [groups:][instances:.scroll_list_customization.show_screen_background_overlay_on_custom_background`: - → `false`
+  - `loading_requirement_container_meta:81e8c20c-8e2e-4620-bdbb-79c7cbd1a6cf-1767435813786] = [groups:][instances:.scroll_list_customization.show_scroll_list_header_footer_preview_in_editor`: - → `false`
+  - `loading_requirement_container_meta:ae874463-3296-408b-aeb7-dfff63dec166-1764430287847] = [groups:][instances:.customization.action`: `backgroundoptions` → -
+  - `loading_requirement_container_meta:ae874463-3296-408b-aeb7-dfff63dec166-1764430287847] = [groups:][instances:.customization.keepaspectratio`: `false` → -
+  - `loading_requirement_container_meta:ae874463-3296-408b-aeb7-dfff63dec166-1764430287847] = [groups:][instances:.element.anchor_point`: `mid-centered` → -
+  - `loading_requirement_container_meta:ae874463-3296-408b-aeb7-dfff63dec166-1764430287847] = [groups:][instances:.element.appearance_delay`: `no_delay` → -
+  - `loading_requirement_container_meta:ae874463-3296-408b-aeb7-dfff63dec166-1764430287847] = [groups:][instances:.element.appearance_delay_seconds`: `1.0` → -
+  - `loading_requirement_container_meta:ae874463-3296-408b-aeb7-dfff63dec166-1764430287847] = [groups:][instances:.element.auto_sizing`: `false` → -
+  - `loading_requirement_container_meta:ae874463-3296-408b-aeb7-dfff63dec166-1764430287847] = [groups:][instances:.element.auto_sizing_base_screen_height`: `976` → -
+  - `loading_requirement_container_meta:ae874463-3296-408b-aeb7-dfff63dec166-1764430287847] = [groups:][instances:.element.auto_sizing_base_screen_width`: `1920` → -
+  - `loading_requirement_container_meta:ae874463-3296-408b-aeb7-dfff63dec166-1764430287847] = [groups:][instances:.element.base_opacity`: `1.0` → -
+  - `loading_requirement_container_meta:ae874463-3296-408b-aeb7-dfff63dec166-1764430287847] = [groups:][instances:.element.element_loading_requirement_container_identifier`: `2462f85d-3d22-43d0-a76f-035d35b2ead8-1758086319296` → -
+  - `loading_requirement_container_meta:ae874463-3296-408b-aeb7-dfff63dec166-1764430287847] = [groups:][instances:.element.element_type`: `image` → -
+  - `loading_requirement_container_meta:ae874463-3296-408b-aeb7-dfff63dec166-1764430287847] = [groups:][instances:.element.fade_in_speed`: `1.0` → -
+  - `loading_requirement_container_meta:ae874463-3296-408b-aeb7-dfff63dec166-1764430287847] = [groups:][instances:.element.fade_in_v2`: `no_fading` → -
+  - `loading_requirement_container_meta:ae874463-3296-408b-aeb7-dfff63dec166-1764430287847] = [groups:][instances:.element.fade_out`: `no_fading` → -
+  - `loading_requirement_container_meta:ae874463-3296-408b-aeb7-dfff63dec166-1764430287847] = [groups:][instances:.element.fade_out_speed`: `1.0` → -
+  - `loading_requirement_container_meta:ae874463-3296-408b-aeb7-dfff63dec166-1764430287847] = [groups:][instances:.element.height`: `184` → -
+  - `loading_requirement_container_meta:ae874463-3296-408b-aeb7-dfff63dec166-1764430287847] = [groups:][instances:.element.image_tint`: `#FFFFFF` → -
+  - `loading_requirement_container_meta:ae874463-3296-408b-aeb7-dfff63dec166-1764430287847] = [groups:][instances:.element.instance_identifier`: `a7e3ea4a-9763-4cef-9dd9-229f2d63a512-1758086319296` → -
+  - `loading_requirement_container_meta:ae874463-3296-408b-aeb7-dfff63dec166-1764430287847] = [groups:][instances:.element.nine_slice_texture`: `false` → -
+  - `loading_requirement_container_meta:ae874463-3296-408b-aeb7-dfff63dec166-1764430287847] = [groups:][instances:.element.nine_slice_texture_border_x`: `5` → -
+  - `loading_requirement_container_meta:ae874463-3296-408b-aeb7-dfff63dec166-1764430287847] = [groups:][instances:.element.nine_slice_texture_border_y`: `5` → -
+  - `loading_requirement_container_meta:ae874463-3296-408b-aeb7-dfff63dec166-1764430287847] = [groups:][instances:.element.repeat_texture`: `false` → -
+  - `loading_requirement_container_meta:ae874463-3296-408b-aeb7-dfff63dec166-1764430287847] = [groups:][instances:.element.restart_animated_on_menu_load`: `false` → -
+  - `loading_requirement_container_meta:ae874463-3296-408b-aeb7-dfff63dec166-1764430287847] = [groups:][instances:.element.source`: `[source:local]/config/fancymenu/assets/minecraftasertopia.png` → -
+  - `loading_requirement_container_meta:ae874463-3296-408b-aeb7-dfff63dec166-1764430287847] = [groups:][instances:.element.stay_on_screen`: `false` → -
+  - `loading_requirement_container_meta:ae874463-3296-408b-aeb7-dfff63dec166-1764430287847] = [groups:][instances:.element.sticky_anchor`: `false` → -
+  - `loading_requirement_container_meta:ae874463-3296-408b-aeb7-dfff63dec166-1764430287847] = [groups:][instances:.element.stretch_x`: `false` → -
+  - `loading_requirement_container_meta:ae874463-3296-408b-aeb7-dfff63dec166-1764430287847] = [groups:][instances:.element.stretch_y`: `false` → -
+  - `loading_requirement_container_meta:ae874463-3296-408b-aeb7-dfff63dec166-1764430287847] = [groups:][instances:.element.width`: `281` → -
+  - `loading_requirement_container_meta:ae874463-3296-408b-aeb7-dfff63dec166-1764430287847] = [groups:][instances:.element.x`: `-141` → -
+  - `loading_requirement_container_meta:ae874463-3296-408b-aeb7-dfff63dec166-1764430287847] = [groups:][instances:.element.y`: `-157` → -
+  - `loading_requirement_container_meta:ae874463-3296-408b-aeb7-dfff63dec166-1764430287847] = [groups:][instances:.menu_background.background_type`: `image` → -
+  - `loading_requirement_container_meta:ae874463-3296-408b-aeb7-dfff63dec166-1764430287847] = [groups:][instances:.menu_background.image_path`: `[source:local]/config/fancymenu/assets/fondecran.png` → -
+  - `loading_requirement_container_meta:ae874463-3296-408b-aeb7-dfff63dec166-1764430287847] = [groups:][instances:.menu_background.instance_identifier`: `b1599f72-97e8-4e93-93b1-a99c437bc86a-1757955069727` → -
+  - `loading_requirement_container_meta:ae874463-3296-408b-aeb7-dfff63dec166-1764430287847] = [groups:][instances:.menu_background.invert_parallax`: `false` → -
+  - `loading_requirement_container_meta:ae874463-3296-408b-aeb7-dfff63dec166-1764430287847] = [groups:][instances:.menu_background.parallax`: `false` → -
+  - `loading_requirement_container_meta:ae874463-3296-408b-aeb7-dfff63dec166-1764430287847] = [groups:][instances:.menu_background.parallax_intensity`: `0.02` → -
+  - `loading_requirement_container_meta:ae874463-3296-408b-aeb7-dfff63dec166-1764430287847] = [groups:][instances:.menu_background.repeat_texture`: `false` → -
+  - `loading_requirement_container_meta:ae874463-3296-408b-aeb7-dfff63dec166-1764430287847] = [groups:][instances:.menu_background.restart_animated_on_menu_load`: `false` → -
+  - `loading_requirement_container_meta:ae874463-3296-408b-aeb7-dfff63dec166-1764430287847] = [groups:][instances:.menu_background.slide`: `false` → -
+  - `loading_requirement_container_meta:ae874463-3296-408b-aeb7-dfff63dec166-1764430287847] = [groups:][instances:.scroll_list_customization.apply_vanilla_background_blur`: `false` → -
+  - `loading_requirement_container_meta:ae874463-3296-408b-aeb7-dfff63dec166-1764430287847] = [groups:][instances:.scroll_list_customization.preserve_scroll_list_header_footer_aspect_ratio`: `true` → -
+  - `loading_requirement_container_meta:ae874463-3296-408b-aeb7-dfff63dec166-1764430287847] = [groups:][instances:.scroll_list_customization.render_scroll_list_footer_shadow`: `true` → -
+  - `loading_requirement_container_meta:ae874463-3296-408b-aeb7-dfff63dec166-1764430287847] = [groups:][instances:.scroll_list_customization.render_scroll_list_header_shadow`: `true` → -
+  - `loading_requirement_container_meta:ae874463-3296-408b-aeb7-dfff63dec166-1764430287847] = [groups:][instances:.scroll_list_customization.repeat_scroll_list_footer_texture`: `false` → -
+  - `loading_requirement_container_meta:ae874463-3296-408b-aeb7-dfff63dec166-1764430287847] = [groups:][instances:.scroll_list_customization.repeat_scroll_list_header_texture`: `false` → -
+  - `loading_requirement_container_meta:ae874463-3296-408b-aeb7-dfff63dec166-1764430287847] = [groups:][instances:.scroll_list_customization.show_screen_background_overlay_on_custom_background`: `false` → -
+  - `loading_requirement_container_meta:ae874463-3296-408b-aeb7-dfff63dec166-1764430287847] = [groups:][instances:.scroll_list_customization.show_scroll_list_header_footer_preview_in_editor`: `false` → -
+- `fancymenu/options.txt`
+  - `custom_window_icon_16`: `'/config/fancymenu/assets/logo_16x16.png';` → `'/config/fancymenu/assets/v316x16.png';`
+  - `custom_window_icon_32`: `'/config/fancymenu/assets/resized_32x32.png';` → `'/config/fancymenu/assets/v332x32.png';`
+  - `custom_window_icon_macos`: `'/config/fancymenu/assets/resized_32x32.icns';` → `'/config/fancymenu/assets/icon_macos.icns';`
+
+*Moonlight Library*
+
+- `moonlight-common.toml`
+  - `general.global_datapacks_folder`: - → `moonlight-global-datapacks`
+
+*Timeless & Classics Guns: Zero*
+
+- `tacz-client.toml`
+  - `render.EnableBlockEntityTranslucent`: - → `false`
+
+**Added (19)**
+
+*Butchery*
+
+- `Butchery.toml`
+
+*Other*
+
+- `xaerohud.txt`
+
+*TRansition*
+
+- `transition.json`
+
+*TRender*
+
+- `trender.json`
+
+*XaeroLib*
+
+- `xaero/lib/client.cfg`
+- `xaero/lib/common.cfg`
+- `xaero/lib/profiles/default.cfg`
+- `xaero/lib/server_profiles/default.cfg`
+- `xaero/minimap/client.cfg`
+- `xaero/minimap/common.cfg`
+- `xaero/minimap/default_radar_categories_client.json`
+- `xaero/minimap/default_radar_categories_server.json`
+- `xaero/minimap/profiles/default.cfg`
+- `xaero/minimap/profiles/info_display_config/default.cfg.txt`
+- `xaero/minimap/server_profiles/default.cfg`
+- `xaero/world-map/client.cfg`
+- `xaero/world-map/common.cfg`
+- `xaero/world-map/profiles/default.cfg`
+- `xaero/world-map/server_profiles/default.cfg`
+
+**Removed (5)**
+
+*Xaero's Minimap*
+
+- `xaerominimap-common.txt`
+- `xaerominimap.txt`
+- `xaerominimap_entities.json`
+
+*Xaero's World Map*
+
+- `xaeroworldmap-common.txt`
+- `xaeroworldmap.txt`
+

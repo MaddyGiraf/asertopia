@@ -1,0 +1,45 @@
+# Modpack changelog
+
+_Generated automatically by What Changed? on 2026-11-07 14:40._
+
+Changes since 2026-11-07 14:35 (detected 2026-11-07 14:40)
+
+## Mods
+
+**Added (3)**
+
+- Extravagant Delight 1.1.5
+- Simple Farming 1.20.1-2.0.6
+- Veggies Delight 1.9.1
+
+**Removed (1)**
+
+- Overworld Mirror 1.7.0.23
+
+## Mobs & entities
+
+**New (1)**
+
+*Extravagant Delight (1)*
+
+- entity.extravagantdelight.grapefruit `extravagantdelight:grapefruit`
+
+## Config changes
+
+**Changed (1)**
+
+*Distant Horizons*
+
+- `DistantHorizons.toml`
+  - `server.serverId`: `-1234499225` → `1596739671`
+
+**Added (2)**
+
+*Simple Farming*
+
+- `simplefarming.toml`
+
+*Veggies Delight*
+
+- `veggiesdelight-common.toml`
+

@@ -1,0 +1,176 @@
+# Modpack changelog
+
+_Generated automatically by What Changed? on 2026-11-08 15:03._
+
+Changes since 2026-11-08 14:57 (detected 2026-11-08 15:03)
+
+- **Mod loader** Forge 47.4.20 → 47.4.28 · [changelog](https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.28/forge-1.20.1-47.4.28-changelog.txt)
+
+## Mods
+
+**Added (2)**
+
+- MezzConfig 0.6.6
+- Smokeleaf Industries 0.7-1.20.1
+
+**Updated (34)**
+
+- Ad Astra 1.15.20 → 1.15.21
+- All The Leaks 1.1.1+1.20.1-forge → 1.1.4+1.20.1-forge
+- AmbientSounds 6.3.8 → 6.3.11
+- [Amendments](https://www.curseforge.com/minecraft/mc-mods/amendments) 1.20-2.2.5 → 1.20-2.2.6
+- Applied Energistics 2 15.4.10 → 15.4.11
+- AsyncParticles 20.1.3.1 → 20.1.4.4
+- Balm 7.3.42 → 7.3.44
+- Butchery 5.2 → 5.3.1
+- Chefs Delight 1.0.4-forge-1.20.1 → 1.0.5-forge-1.20.1
+- CraterLib 3.1.2+hotfix.1 → 3.1.3
+- CreativeCore 2.12.39 → 2.12.40
+- Distant Horizons 3.2.0-b → 3.3.3
+- EntityCulling 1.10.5 → 1.11.3
+- FancyMenu 3.9.9 → 3.9.14
+- Farmer's Delight 1.20.1-1.3.2 → 1.20.1-1.3.4
+- Footprint Particle 0.5.4b-mc1.20(.1) → 0.7.1
+- Fzzy Config 0.7.6+1.20.1+forge → 0.7.7+1.20.1+forge
+- Just Enough Items 15.21.0.148 → 15.74.0.230
+- ModernFix 5.27.66+mc1.20.1 → 5.27.91+mc1.20.1
+- [Moonlight Library](https://www.curseforge.com/minecraft/mc-mods/selene) 1.20-2.16.34 → 1.20-2.16.37
+- NotEnoughAnimations 1.12.4 → 1.12.6
+- Polymorph 0.49.10+1.20.1 → 0.49.11+1.20.1
+- Simple Voice Chat 1.20.1-2.6.21 → 1.20.1-2.6.26
+- Simple Voice Chat API 2.6.20 → 2.6.25
+- SkinRestorer 2.10.0+1.20-forge → 2.11.0+1.20-forge
+- [Supplementaries](https://www.curseforge.com/minecraft/mc-mods/supplementaries) 1.20-3.1.43 → 1.20-3.1.44
+- Timeless & Classics Guns: Zero 1.1.8-hotfix → 1.1.8-hotfix2
+- TRansition 1.0.21 → 1.0.26
+- Traveler's Backpack 9.1.56 → 9.1.58
+- TRender 1.0.15 → 1.0.17
+- Waystones 14.1.20 → 14.1.21
+- Xaero's Minimap 26.4.2 → 26.6.0
+- Xaero's World Map 1.44.2 → 1.47.0
+- XaeroLib 1.7.1 → 1.7.3
+
+**Removed (1)**
+
+- Smokeleaf Industry 0.4.7-1.20.1
+
+
+
+## Config changes
+
+**Changed (8)**
+
+*AsyncParticles*
+
+- `asyncparticles/asyncparticles-mixin.properties`
+  - `particle$lockProvider`: `yesman.epicfight.client.particle.TrailParticle,yesman.epicfight.client.particle.AbstractTrailParticle,com.dfdyz.epicacg.client.particle.BloomTrailParticle,com.brandon3055.draconice…#88f394e5` → `yesman.epicfight.client.particle.TrailParticle,yesman.epicfight.client.particle.AbstractTrailParticle,com.lowdragmc.photon.client.gameobject.FXObject,com.dfdyz.epicacg.client.parti…#8ab8f2c9`
+  - `particle$lockRequired`: `yesman.epicfight.client.particle.TrailParticle,yesman.epicfight.client.particle.AbstractTrailParticle,com.dfdyz.epicacg.client.particle.BloomTrailParticle,com.brandon3055.draconice…#6c3d5c96` → `yesman.epicfight.client.particle.TrailParticle,yesman.epicfight.client.particle.AbstractTrailParticle,com.lowdragmc.photon.client.gameobject.FXObject,com.dfdyz.epicacg.client.parti…#7714634e`
+  - `particle$noCulling`: `pigcart.particlerain.particle.GroundFogParticle,com.lowdragmc.photon.client.gameobject.FXObject,net.bettercombat.client.particle.SlashParticle` → `com.lowdragmc.photon.client.gameobject.FXObject,net.bettercombat.client.particle.SlashParticle,com.xm666.realisticcruelty.particle.BloodSplatParticle,pigcart.particlerain.particle.GroundFogParticle`
+  - `particle$splitTick`: `false` → -
+  - `version`: `2` → `3`
+- `asyncparticles/asyncparticles.json`
+  - `mobile.multiDrawWorkaround`: - → `true`
+  - `particle.cleanupStrategy`: - → `PARALLEL_WITH_TICK`
+  - `particle.parallelQueueEviction`: `true` → `false`
+  - `particle.parallelQueueRemoval`: `true` → `false`
+  - `particle.removeIfMissedTick`: `false` → -
+  - `rendering.computeExecutionStage`: - → `LEVEL_RENDERING`
+  - `rendering.failBehavior`: `MARK_AS_SYNC` → -
+  - `rendering.failPerSecLimit`: `20` → -
+  - `rendering.particleRenderingMode`: `SYNCHRONOUSLY` → -
+  - `rendering.syncParticleClasses`: `["com.lootbeams.VFXParticle","ovh.corail.tombstone.particle.ParticleCasting","ovh.corail.tombstone.particle.ParticleGhost","ovh.corail.tombstone.particle.ParticleGraveSoul","ovh.co…#3e2806da` → -
+  - `rendering.tickRendererOnMainThread`: - → `false`
+  - `tick.animationTickMode`: `INTERRUPTIBLE` → `false`
+  - `tick.particleAsyncMode`: - → `SEQUENTIAL`
+  - `tick.particleTickMode`: `INTERRUPTIBLE` → -
+  - `tick.syncAnimationClasses`: - → `[]`
+  - `version`: `1` → `2`
+
+*Butchery*
+
+- `Butchery.toml`
+  - `Farmers Delight Compatibility.Farmers Delight Knives Drop Carcasses`: - → `false`
+  - `General.Show Hints`: `true` → -
+  - `General.Show Hints (Temporarily Disabled)`: - → `false`
+  - `General.Welcome Message`: - → `true`
+  - `Multipliers.Salt Basin Yield`: - → `1.0`
+  - `Multipliers.Skin Rack Yield`: - → `2.0`
+  - `Timings (20 = 1 second).Skin Drying Time`: - → `1800.0`
+
+*Distant Horizons*
+
+- `DistantHorizons.toml`
+  - `_version`: `4` → `5`
+  - `client.advanced.debugging.rendererMode`: `DISABLED` → `DEFAULT`
+  - `client.advanced.graphics.enableAntiAliasing`: - → `true`
+  - `client.advanced.graphics.experimental.renderingApi`: `AUTO` → -
+  - `client.advanced.graphics.quality.blocksToIgnore`: `NON_COLLIDING` → -
+  - `client.advanced.graphics.quality.dhFadeFarClipPlane`: `true` → -
+  - `client.advanced.graphics.quality.tintWithAvoidedBlocks`: `true` → -
+  - `client.advanced.graphics.texture.blocksDontUseSideTextureCsv`: `grass_block,mycelium,nylium,dirt_path` → `grass_block,mycelium,nylium,dirt_path,grass`
+  - `common.lodBuilding.databaseSyncMode`: - → `NORMAL`
+  - `common.lodBuilding.experimental.upsampleLowerDetailLodsToFillHoles`: `false` → -
+  - `common.logging.warning.logExplicitGcDisabledWarning`: `true` → `false`
+  - `common.logging.warning.showDeprecatedRendererWarningOnStartup`: `true` → -
+  - `common.logging.warning.showExplicitGcDisabledWarning`: `true` → `false`
+  - `common.multiThreading.numberOfThreads`: `1` → `6`
+  - `common.multiThreading.threadRunTimeRatio`: `0.5` → `1.0`
+  - `common.worldGenerator.chunkGeneratorMode`: - → `FEATURES`
+  - `common.worldGenerator.distantGeneratorMode`: `FEATURES` → -
+  - `common.worldGenerator.enableDistantGeneration`: `true` → -
+  - `common.worldGenerator.generatorPlan`: - → `SURFACE_THEN_CHUNKS`
+  - `common.worldGenerator.limitIfServerUnhealthy`: - → `true`
+  - `common.worldGenerator.pauseIfMovingQuickly`: - → `true`
+  - `common.worldGenerator.surfaceRegenMaxDistancePercent`: - → `-1.0`
+  - `server.enableServerGeneration`: `true` → -
+  - `server.experimental.enableNSizedGeneration`: `false` → -
+  - `server.serverId`: `2145675076` → `1848913939`
+
+*EntityCulling*
+
+- `entityculling.json`
+  - `configVersion`: `8` → `9`
+  - `safeMode`: - → `true`
+
+*Jade*
+
+- `jade/plugins.json`
+  - `butchery.player_corpse_status`: - → `true`
+  - `smokeleafindustries.drying_rack`: - → `true`
+  - `smokeleafindustries.grow_pot_jade`: - → `true`
+  - `smokeleafindustries.reflector`: - → `true`
+  - `smokeleafindustries.unidentified_crop_name`: - → `true`
+  - `smokeleafindustries.weed_crop_jade`: - → `true`
+- `jade/sort-order.json`
+  - `butchery:player_corpse_status`: - → `null`
+  - `smokeleafindustries:drying_rack`: - → `null`
+  - `smokeleafindustries:grow_pot_jade`: - → `null`
+  - `smokeleafindustries:reflector`: - → `null`
+  - `smokeleafindustries:unidentified_crop_name`: - → `null`
+  - `smokeleafindustries:weed_crop_jade`: - → `null`
+
+*Traveler's Backpack*
+
+- `travelersbackpack-client.toml`
+  - `client.toolsOverlay.allowHotbarScrolling`: - → `false`
+  - `client.toolsOverlay.displayEmptySlots`: - → `false`
+
+**Added (8)**
+
+*Just Enough Items*
+
+- `jei/client/default/jei-client.ini`
+- `jei/client/default/jei-colors.ini`
+- `jei/client/default/jei-debug.ini`
+- `jei/client/default/jei-mod-id-format.ini`
+- `jei/client/jei-client.ini`
+- `jei/client/jei-debug.ini`
+
+*MezzConfig*
+
+- `mezz_config/client/default/settings.ini`
+
+*Smokeleaf Industries*
+
+- `smokeleafindustries-common.toml`
+

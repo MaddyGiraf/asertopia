@@ -1,0 +1,64 @@
+# Modpack changelog
+
+_Generated automatically by What Changed? on 2026-11-07 14:09._
+
+Changes since 2026-11-07 14:05 (detected 2026-11-07 14:09)
+
+## Mods
+
+**Added (7)**
+
+- Additional Blocks: Vertical Edition 1.0.3b
+- Better Biome Reblend 1.5.3
+- BetterDays 3.3.4.5
+- FramedBlocks 9.4.3
+- Oculus 1.8.0
+- untitled1 1.6
+- WhiteNoise 1.1.1
+
+**Removed (2)**
+
+- Better Combat 1.8.6+1.20.1
+- Camera Mod 1.20.1-1.0.20
+
+
+## Mobs & entities
+
+**Removed (1)**
+
+*Camera Mod (1)*
+
+- Image Frame `camera:image_frame`
+
+## Config changes
+
+**Changed (2)**
+
+*Jade*
+
+- `jade/plugins.json`
+  - `camera.image_frame`: `true` → -
+  - `framedblocks.framed_item_frame`: - → `true`
+- `jade/sort-order.json`
+  - `framedblocks:framed_item_frame`: - → `null`
+
+**Added (6)**
+
+*BetterDays*
+
+- `betterdays-client.toml`
+- `betterdays-common.toml`
+
+*FramedBlocks*
+
+- `framedblocks-client.toml`
+- `framedblocks-common.toml`
+
+*Oculus*
+
+- `oculus.properties`
+
+*WhiteNoise*
+
+- `whitenoise-client.toml`
+
