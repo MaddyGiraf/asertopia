@@ -1,0 +1,100 @@
+# Modpack changelog
+
+_Generated automatically by What Changed? on 2026-11-08 14:50._
+
+Changes since 2026-11-08 14:15 (detected 2026-11-08 14:49)
+
+## Mods
+
+**Updated (15)**
+
+- AsyncParticles 2.4.0-beta.3 → 20.1.3.1
+- Balm 7.3.39 → 7.3.42
+- Butchery 5.1 → 5.2
+- Distant Horizons 3.1.2-b → 3.2.0-b
+- FancyMenu 3.9.6 → 3.9.9
+- Jade 11.13.2+forge → 11.13.3+forge
+- Just Enough Items 15.20.0.132 → 15.21.0.148
+- MixinSquared 0.3.6-beta.1 → 0.3.7-beta.3
+- ModernFix 5.27.58+mc1.20.1 → 5.27.66+mc1.20.1
+- SkinRestorer 2.8.1+1.20-forge → 2.10.0+1.20-forge
+- Traveler's Backpack 9.1.55 → 9.1.56
+- Veggies Delight 1.9.2 → 1.9.3
+- Xaero's Minimap 26.1.0 → 26.4.2
+- Xaero's World Map 1.41.2 → 1.44.2
+- XaeroLib 1.1.15 → 1.7.1
+
+## Config changes
+
+**Changed (9)**
+
+*AsyncParticles*
+
+- `asyncparticles/asyncparticles-mixin.properties`
+  - `particle$noCulling`: `pigcart.particlerain.particle.GroundFogParticle,com.lowdragmc.photon.client.gameobject.FXObject` → `pigcart.particlerain.particle.GroundFogParticle,com.lowdragmc.photon.client.gameobject.FXObject,net.bettercombat.client.particle.SlashParticle`
+  - `particle$splitTick`: - → `false`
+  - `safeLegacyRandomSource`: `false` → `true`
+  - `version`: `1` → `2`
+- `asyncparticles/asyncparticles.json`
+  - `create.tickRainBlockingRange`: - → `16`
+  - `particle.parallelQueueEviction`: - → `true`
+  - `particle.parallelQueueRemoval`: - → `true`
+  - `rendering.appendNewParticlesToRenderer`: - → `true`
+  - `rendering.gpuAcceleration`: - → `true`
+  - `tick.gpuOnlyAsyncParticleTick`: - → `false`
+
+*Distant Horizons*
+
+- `DistantHorizons.toml`
+  - `client.advanced.graphics.quality.increaseQualityWhenZoomedIn`: - → `true`
+  - `client.advanced.graphics.quality.maxZoomQualityIncrease`: - → `4`
+  - `client.advanced.graphics.texture.blockTagsDontUseSideTextureCsv`: - → `grass_blocks,nylium`
+  - `client.advanced.graphics.texture.blocksAlwaysRasterizeTextureCsv`: - → `minecraft:beacon`
+  - `client.advanced.graphics.texture.blocksDontRenderTextureCsv`: - → `minecraft:bamboo`
+  - `client.advanced.graphics.texture.blocksDontUseSideTextureCsv`: - → `grass_block,mycelium,nylium,dirt_path`
+  - `client.advanced.graphics.texture.enableTexturedLods`: - → `true`
+  - `client.advanced.graphics.texture.maxTexturedLodDetailLevel`: - → `2`
+  - `common.logging.warning.logExplicitGcDisabledWarning`: - → `true`
+  - `common.logging.warning.showDeprecatedRendererWarningOnStartup`: - → `true`
+  - `common.logging.warning.showExplicitGcDisabledWarning`: - → `true`
+
+*FancyMenu*
+
+- `fancymenu/options.txt`
+  - `dev_force_mcef_missing`: `'false';` → -
+  - `dev_force_rinku_missing`: - → `'false';`
+
+*Just Enough Items*
+
+- `jei/jei-client.ini`
+  - `search.SearchModAliases`: - → `true`
+
+*SkinRestorer*
+
+- `skinrestorer/config.json`
+  - `command.enabled`: - → `true`
+  - `command.permissionLevel`: - → `0`
+  - `command.targetsPermissionLevel`: - → `2`
+  - `providers.mineskin.allowedDomains`: - → `[]`
+  - `storage.location`: - → `world`
+
+*XaeroLib*
+
+- `xaero/minimap/profiles/default.cfg`
+  - `discovered_waystone_waypoints`: - → `true`
+  - `minimap_further_zoomout`: - → `false`
+  - `minimap_undiscovered_opacity`: - → `50`
+  - `other_waystone_waypoints`: - → `true`
+  - `waypoint_distance_in_menu`: - → `true`
+- `xaero/world-map/client.cfg`
+  - `ignore_map_file_locks`: - → `false`
+- `xaero/world-map/profiles/default.cfg`
+  - `convert_map_distances_to_km_at`: - → `10000`
+  - `display_map_distances`: - → `true`
+  - `display_server_chunk_radius`: - → `false`
+  - `force_fast_map_writing`: - → `false`
+  - `map_distance_precision`: - → `1`
+  - `skip_world_render`: - → `true`
+  - `unlimited_zoom_in`: - → `false`
+  - `unlimited_zoom_out`: - → `false`
+

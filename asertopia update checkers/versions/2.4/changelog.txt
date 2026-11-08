@@ -1,0 +1,93 @@
+# Modpack changelog
+
+_Generated automatically by What Changed? on 2026-11-08 14:00._
+
+Changes since 2026-11-08 13:52 (detected 2026-11-08 13:59)
+
+## Mods
+
+**Added (1)**
+
+- Camera Mod 1.20.1-1.0.20
+
+**Updated (15)**
+
+- AmbientSounds 6.3.1 → 6.3.3
+- [Amendments](https://www.curseforge.com/minecraft/mc-mods/amendments) 1.20-2.2.3 → 1.20-2.2.5
+- Balm 7.3.37 → 7.3.38
+- Butchery 4.5 → 4.6
+- Citadel 2.6.2 → 2.6.3
+- Create: New Age 1.1.7e+mc1.20.1 → 1.1.7f+mc1.20.1
+- Fzzy Config 0.7.4+1.20.1+forge → 0.7.5+1.20.1+forge
+- [Moonlight Library](https://www.curseforge.com/minecraft/mc-mods/selene) 1.20-2.16.19 → 1.20-2.16.23
+- No Telemetry 1.9.0 → 1.10.0
+- Particle Core 0.2.6+1.20.1+forge → 0.3.0+1.20.1+forge
+- SkinRestorer 2.4.3+1.20-forge → 2.5.0+1.20-forge
+- [Supplementaries](https://www.curseforge.com/minecraft/mc-mods/supplementaries) 1.20-3.1.41 → 1.20-3.1.42
+- Traveler's Backpack 9.1.46 → 9.1.50
+- Veggies Delight 1.9.1 → 1.9.2
+- Waystones 14.1.17 → 14.1.18
+
+## Config changes
+
+**Changed (6)**
+
+*Amendments*
+
+- `amendments-client.toml`
+  - `sign.sign_blacklist`: - → `[]`
+
+*Distant Horizons*
+
+- `DistantHorizons.toml`
+  - `server.serverId`: `-927548508` → `-1596779138`
+
+*Jade*
+
+- `jade/plugins.json`
+  - `camera.image_frame`: - → `true`
+
+*Particle Core*
+
+- `particle_core_config.toml`
+  - `asynchronousTicking`: - → `true`
+  - `maxParticlesPerSheet`: - → `16384`
+  - `particleRenderDistanceMultiplier`: - → `1.0`
+  - `turnOffPotionParticles`: `NONE` → -
+  - `turnOffPotionParticlesV2`: - → `["NONE"]`
+  - `version`: `0` → `1`
+
+*SkinRestorer*
+
+- `skinrestorer/config.json`
+  - `forceFirstJoinSkinFetch`: - → `false`
+  - `providers.collection.cache.duration`: - → `604800`
+  - `providers.collection.cache.enabled`: - → `true`
+  - `providers.collection.enabled`: - → `false`
+  - `providers.collection.name`: - → `collection`
+  - `providers.collection.sources`: - → `[]`
+
+*Veggies Delight*
+
+- `veggiesdelight-common.toml`
+  - `Worldgen Settings.Worldgen Settings.chanceBellPeppers`: - → `100`
+  - `Worldgen Settings.Worldgen Settings.chanceBroccoli`: - → `120`
+  - `Worldgen Settings.Worldgen Settings.chanceCauliflowers`: - → `120`
+  - `Worldgen Settings.Worldgen Settings.chanceGarlic`: - → `120`
+  - `Worldgen Settings.Worldgen Settings.chanceMatureDandelion`: - → `130`
+  - `Worldgen Settings.Worldgen Settings.chanceSweetPotatoes`: - → `120`
+  - `Worldgen Settings.Worldgen Settings.chanceTurnips`: - → `20`
+  - `Worldgen Settings.Worldgen Settings.chanceZucchinis`: - → `100`
+
+**Added (1)**
+
+*Particle Core*
+
+- `particle_core_disabled_optimizations_v2.json`
+
+**Removed (1)**
+
+*Particle Core*
+
+- `particle_core_disabled_optimizations.json`
+

@@ -1,0 +1,123 @@
+# Modpack changelog
+
+_Generated automatically by What Changed? on 2026-11-08 14:16._
+
+Changes since 2026-11-08 14:11 (detected 2026-11-08 14:15)
+
+## Mods
+
+**Added (1)**
+
+- Kaka 1.5.4
+
+**Updated (23)**
+
+- Balm 7.3.38 → 7.3.39
+- Butchery 4.9 → 5.1
+- Create: New Age 1.1.7f+mc1.20.1 → 1.2.0+mc1.20.1
+- CreativeCore 2.12.37 → 2.12.39
+- Distant Horizons 3.0.3-b → 3.1.2-b
+- Ecologics 2.2.4 → 2.2.7
+- EntityCulling 1.10.2 → 1.10.5
+- FancyMenu 3.9.0 → 3.9.6
+- GuideME 20.1.14 → 20.1.15
+- ImmediatelyFast 1.5.4+1.20.4 → 1.5.5+1.20.4
+- Immersive Paintings 0.6.11+1.20.1 → 0.6.13+1.20.1
+- Just Enough Items 15.20.0.130 → 15.20.0.132
+- ModernFix 5.27.22+mc1.20.1 → 5.27.58+mc1.20.1
+- [Moonlight Library](https://www.curseforge.com/minecraft/mc-mods/selene) 1.20-2.16.32 → 1.20-2.16.34
+- NotEnoughAnimations 1.12.3 → 1.12.4
+- SecurityCraft 1.10.1 → 1.10.2.1
+- SkinRestorer 2.7.0+1.20-forge → 2.8.1+1.20-forge
+- ToadLib 1.3.5 → 1.3.5S-2
+- TRansition 1.0.19 → 1.0.21
+- Traveler's Backpack 9.1.54 → 9.1.55
+- TRender 1.0.13 → 1.0.15
+- Xaero's Minimap 25.3.13 → 26.1.0
+- Xaero's World Map 1.40.16 → 1.41.2
+
+**Downgraded (1)**
+
+- Timeless & Classics Guns: Zero 1.1.8 → 1.1.8-hotfix
+
+## Config changes
+
+**Changed (9)**
+
+*Builtin Servers*
+
+- `builtinservers.json`
+  - `builtinServers`: `[{"name":"Asertopia","address":"asertopia.aternos.me","forced":true}]` → `[{"name":"Asertopia","address":"asertopia.estrogen.fr","forced":true}]`
+
+*Butchery*
+
+- `Butchery.toml`
+  - `General.Magic Wishbone`: - → `true`
+  - `General.Wishbone Chance`: - → `0.25`
+
+*Create: New Age*
+
+- `create_new_age-common.toml`
+  - `Reactor.ReactorRodHeat`: - → `30.0`
+  - `Reactor.ReactorRodHeatLoss`: - → `25.0`
+  - `Reactor.geigerCounterSounds`: - → `true`
+  - `Reactor.maxRodsInDirection`: - → `32`
+  - `Reactor.nauseaInducingRadiation`: - → `true`
+  - `Reactor.radiationDamageExplosionFire`: - → `true`
+  - `Reactor.radiationDamageExplosionScale`: - → `2.0`
+  - `Reactor.reactorOverheatExplosionMultiplier`: - → `0.9`
+  - `ReactorRodHeat`: `30.0` → -
+  - `ReactorRodHeatLoss`: `25.0` → -
+  - `maxRodsInDirection`: `32` → -
+  - `streetLightCapacity`: - → `10000`
+  - `streetLightLevelExtraction`: - → `1`
+
+*Distant Horizons*
+
+- `DistantHorizons.toml`
+  - `client.advanced.graphics.culling.blocksToIgnore`: - → `NON_COLLIDING`
+  - `client.advanced.graphics.culling.tintWithAvoidedBlocks`: - → `true`
+  - `client.advanced.graphics.experimental.renderingEngine`: - → `AUTO`
+  - `client.advanced.graphics.genericRendering.enableMultiLayerClouds`: - → `true`
+  - `client.advanced.graphics.quality.useCameraPositionForQualityDropOff`: - → `true`
+  - `common.lodBuilding.dataCompression`: - → `Z_STD_BLOCK`
+
+*EntityCulling*
+
+- `entityculling.json`
+  - `configVersion`: `7` → `8`
+  - `forceDisplayCulling`: - → `false`
+  - `solidLeaves`: - → `false`
+  - `tickCullingWhitelist`: `["minecraft:block_display","alexscaves:gum_worm","minecraft:jungle_boat","minecraft:spruce_boat","mts:builder_rendering","drg_flares:drg_flares","minecraft:mangrove_boat","mts:buil…#3185c954` → `["minecraft:block_display","alexscaves:gum_worm","minecraft:jungle_boat","minecraft:spruce_boat","mts:builder_rendering","drg_flares:drg_flares","minecraft:mangrove_boat","mts:buil…#d7ec42ac`
+
+*SecurityCraft*
+
+- `securitycraft-client.toml`
+  - `more_performant_sri_rendering`: - → `false`
+  - `reinforced_block_tint`: `true` → -
+  - `reinforced_block_tint_mode`: - → `ALL`
+
+*SkinRestorer*
+
+- `skinrestorer/config.json`
+  - `join.autoFetch.provider`: `mojang` → -
+  - `join.autoFetch.providers`: - → `["mojang"]`
+  - `version`: `2` → `3`
+
+*Timeless & Classics Guns: Zero*
+
+- `tacz-client.toml`
+  - `sound.FirstPersonAnimationSoundTracking`: - → `false`
+
+*XaeroLib*
+
+- `xaero/world-map/client.cfg`
+  - `max_loaded_regions`: - → `300`
+
+**Added (2)**
+
+*Kaka*
+
+- `kaka-client.toml`
+- `kaka-common.toml`
+

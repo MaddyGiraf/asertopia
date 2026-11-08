@@ -1,0 +1,29 @@
+# Modpack changelog
+
+_Generated automatically by What Changed? on 2026-11-08 13:52._
+
+Changes since 2026-11-07 14:40 (detected 2026-11-08 13:52)
+
+## Mods
+
+**Removed (1)**
+
+- Extravagant Delight 1.1.5
+
+## Mobs & entities
+
+**Removed (1)**
+
+*Extravagant Delight (1)*
+
+- entity.extravagantdelight.grapefruit `extravagantdelight:grapefruit`
+
+## Config changes
+
+**Changed (1)**
+
+*Distant Horizons*
+
+- `DistantHorizons.toml`
+  - `server.serverId`: `1596739671` → `-927548508`
+

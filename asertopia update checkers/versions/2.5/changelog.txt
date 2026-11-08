@@ -1,0 +1,153 @@
+# Modpack changelog
+
+_Generated automatically by What Changed? on 2026-11-08 14:05._
+
+Changes since 2026-11-08 13:59 (detected 2026-11-08 14:04)
+
+## Mods
+
+**Added (2)**
+
+- Immersive Paintings 0.6.11+1.20.1
+- XaeroLib 1.1.0
+
+**Updated (24)**
+
+- 3d-Skin-Layers 1.10.1 → 1.11.1
+- All The Leaks 1.0.4+1.20.1-forge → 1.1.1+1.20.1-forge
+- AmbientSounds 6.3.3 → 6.3.4
+- Butchery 4.6 → 4.8
+- CreativeCore 2.12.32 → 2.12.35
+- EntityCulling 1.9.5 → 1.10.1
+- Farmer's Delight 1.20.1-1.2.9 → 1.20.1-1.2.11
+- Fzzy Config 0.7.5+1.20.1+forge → 0.7.6+1.20.1+forge
+- ImmediatelyFast 1.5.3+1.20.4 → 1.5.4+1.20.4
+- MixinSquared 0.3.5-beta.2 → 0.3.6-beta.1
+- ModernFix 5.25.2+mc1.20.1 → 5.27.0+mc1.20.1
+- [Moonlight Library](https://www.curseforge.com/minecraft/mc-mods/selene) 1.20-2.16.23 → 1.20-2.16.28
+- Nature's Compass 1.20.1-1.11.2-forge → 1.20.1-1.12.0-forge
+- NotEnoughAnimations 1.11.1 → 1.12.1
+- Particle Core 0.3.0+1.20.1+forge → 0.3.3+1.20.1+forge
+- SkinRestorer 2.5.0+1.20-forge → 2.7.0+1.20-forge
+- [Supplementaries](https://www.curseforge.com/minecraft/mc-mods/supplementaries) 1.20-3.1.42 → 1.20-3.1.43
+- Timeless & Classics Guns: Zero 1.1.7-hotfix → 1.1.7-hotfix2
+- TRansition 1.0.11 → 1.0.17
+- Traveler's Backpack 9.1.50 → 9.1.53
+- TRender 1.0.10 → 1.0.12
+- Waystones 14.1.18 → 14.1.20
+- Xaero's Minimap 25.2.10 → 25.3.10
+- Xaero's World Map 1.39.12 → 1.40.11
+
+**Downgraded (1)**
+
+- Presence Footsteps [FORGE] 1.20.1-1.9.1-beta.1 → 1.0.0
+
+## Config changes
+
+**Changed (9)**
+
+*All The Leaks*
+
+- `alltheleaks.json`
+  - `debugThreadsStuck`: - → `false`
+  - `logIntervalInMinutes`: - → `10`
+  - `memoryUsageWarningPercentage`: - → `90`
+  - `showSummaryOnDebugScreen`: - → `true`
+
+*Butchery*
+
+- `Butchery.toml`
+  - `Farmers Delight Compatibility.Farmers Delight`: - → `false`
+  - `General.Blood Puddle`: - → `true`
+  - `General.First Join Book`: - → `true`
+  - `Mobs.Ravager`: - → `true`
+  - `Mod Compatibilities.Farmers Delight`: `false` → -
+  - `Vampirism Compatibility.Vampires Delight Eye`: - → `false`
+  - `Vampirism Compatibility.Vampirism Heart`: - → `false`
+
+*Distant Horizons*
+
+- `DistantHorizons.toml`
+  - `server.serverId`: `-1596779138` → `-1125941477`
+
+*Moonlight Library*
+
+- `moonlight-common.toml`
+  - `general.multi_threaded_generation`: - → `true`
+
+*Nature's Compass*
+
+- `naturescompass-common.toml`
+  - `General.compassDurability`: - → `0`
+  - `General.defaultXpLevels`: - → `0`
+  - `General.maxNextSearches`: - → `25`
+  - `General.perBiomeXpLevels`: - → `[]`
+
+*Presence Footsteps [FORGE]*
+
+- `presencefootsteps/userconfig.json`
+  - `disabled`: - → `false`
+  - `exclusive`: - → `false`
+  - `foliageSoundsVolume`: - → `100`
+  - `footwear`: - → `true`
+  - `hostileEntitiesVolume`: - → `100`
+  - `passiveEntitiesVolume`: - → `100`
+  - `stance`: `UNKNOWN` → -
+  - `visualiser`: - → `false`
+
+*SkinRestorer*
+
+- `skinrestorer/config.json`
+  - `fetchSkinOnFirstJoin`: `true` → -
+  - `firstJoinSkinProvider`: `MOJANG` → -
+  - `forceFirstJoinSkinFetch`: `false` → -
+  - `join.applyDelay`: - → `0`
+  - `join.autoFetch.enabled`: - → `true`
+  - `join.autoFetch.overrideExisting`: - → `false`
+  - `join.autoFetch.provider`: - → `mojang`
+  - `join.refreshSkin`: - → `true`
+  - `join.skipRefreshProviders`: - → `[]`
+  - `providers.custom`: - → `[]`
+  - `providers.mineskin.proxyUrlUpload`: - → `false`
+  - `proxy`: `""` → -
+  - `refreshSkinOnJoin`: `true` → -
+  - `request.proxy`: - → `""`
+  - `request.timeout`: - → `10`
+  - `request.userAgent`: - → `""`
+  - `requestTimeout`: `10` → -
+  - `skinApplyDelayOnJoin`: `0` → -
+  - `version`: - → `2`
+
+*Supplementaries*
+
+- `supplementaries-common.toml`
+  - `functional.soap.block_cleaning_enabled`: - → `true`
+
+*Traveler's Backpack*
+
+- `travelersbackpack-client.toml`
+  - `client.disableScrollWheel`: `false` → -
+  - `client.enableToolCycling`: `true` → -
+  - `client.toolsOverlay.offsetX`: - → `0`
+  - `client.toolsOverlay.offsetY`: - → `0`
+  - `client.toolsOverlay.opacity`: - → `0.75`
+  - `client.toolsOverlay.renderBackpackIconInCenter`: - → `true`
+  - `client.toolsOverlay.showTooltip`: - → `false`
+  - `client.toolsOverlay.swapOnClose`: - → `true`
+
+**Added (1)**
+
+*Presence Footsteps [FORGE]*
+
+- `presencefootsteps/updater.json`
+
+**Removed (2)**
+
+*Xaero's Minimap*
+
+- `xaerominimap-common.txt`
+
+*Xaero's World Map*
+
+- `xaeroworldmap-common.txt`
+

@@ -1,0 +1,43 @@
+# Modpack changelog
+
+_Generated automatically by What Changed? on 2026-11-08 14:55._
+
+Changes since 2026-11-08 14:52 (detected 2026-11-08 14:55)
+
+## Mods
+
+**Added (2)**
+
+- Simple Voice Chat 1.20.1-2.6.21
+- Simple Voice Chat API 2.6.20
+
+## Config changes
+
+**Changed (1)**
+
+*FancyMenu*
+
+- `fancymenu/options.txt`
+  - `custom_window_icon_16`: `'';` → `'/config/fancymenu/assets/v316x16.png';`
+  - `custom_window_icon_32`: `'';` → `'/config/fancymenu/assets/v332x32.png';`
+  - `custom_window_icon_macos`: `'';` → `'/config/fancymenu/assets/icon_macos.icns';`
+  - `custom_window_title`: `'';` → `'asertopia';`
+  - `show_custom_window_icon`: `'false';` → `'true';`
+  - `show_customization_overlay`: `'true';` → `'false';`
+
+**Added (8)**
+
+*FancyMenu*
+
+- `fancymenu/customization/join_multiplayer_screen_layout.txt`
+- `fancymenu/customization/title_screen_layout.txt`
+
+*Simple Voice Chat*
+
+- `voicechat-client.toml`
+- `voicechat/category-volumes.properties`
+- `voicechat/player-volumes.properties`
+- `voicechat/translations.properties`
+- `voicechat/voicechat-client.properties`
+- `voicechat/voicechat-server.properties`
+
