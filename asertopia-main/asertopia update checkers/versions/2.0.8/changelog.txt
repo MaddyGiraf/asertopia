@@ -1,0 +1,31 @@
+# Modpack changelog
+
+_Generated automatically by What Changed? on 2026-11-06 09:53._
+
+Changes since 2026-11-06 09:50 (detected 2026-11-06 09:53)
+
+## Mods
+
+**Added (3)**
+
+- Emojiful 4.2.0
+- ObsidianUI 0.2.3+mc1.20.1
+- RyoamicLights 0.2.3+mc1.20.1
+
+**Removed (2)**
+
+- Create: Steam 'n' Rails 1.6.13-alpha+forge-mc1.20.1
+- Dynamic Lights 5.3
+
+
+
+## Mobs & entities
+
+**Removed (3)**
+
+*Create: Steam 'n' Rails (3)*
+
+- Conductor `railways:conductor`
+- Minecart with Jukebox `railways:jukeboxcart`
+- Minecart with Workbench `railways:benchcart`
+
