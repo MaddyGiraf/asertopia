@@ -1,0 +1,37 @@
+# Modpack changelog
+
+_Generated automatically by What Changed? on 2026-11-07 14:06._
+
+Changes since 2026-11-07 13:57 (detected 2026-11-07 14:05)
+
+## Mods
+
+**Added (1)**
+
+- Inventory Tweaks Refoxed 1.2.0
+
+**Removed (7)**
+
+- Create Deco 2.0.3-1.20.1-forge
+- Create: Interiors 0.5.6
+- Krypton FNP 0.2.24-lite
+- Macaw's Doors 1.1.2
+- Recipes Library 2.0.1
+- Serene Seasons 9.1.0.2
+- Serene Seasons - Pam's HarvestCraft 2 - Crops Compat 1.20.1-1.0.0
+
+## Mobs & entities
+
+**Removed (1)**
+
+*Create: Interiors (1)*
+
+- Big Seat `interiors:big_seat`
+
+## Config changes
+
+**Added (1)**
+
+*Inventory Tweaks Refoxed*
+
+- `invtweaks-client.toml`

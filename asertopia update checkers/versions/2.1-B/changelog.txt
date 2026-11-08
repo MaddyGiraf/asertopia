@@ -1,0 +1,148 @@
+# Modpack changelog
+
+_Generated automatically by What Changed? on 2026-11-06 10:05._
+
+Changes since 2026-11-06 09:53 (detected 2026-11-06 10:05)
+
+## Mods
+
+**Updated (23)**
+
+- [Amendments](https://www.curseforge.com/minecraft/mc-mods/amendments) 1.20-2.2.1 → 1.20-2.2.3
+- AsyncParticles 2.3.8 → 2.4.0-beta.3
+- Balm 7.3.35 → 7.3.37
+- Corpse 1.20.1-1.0.21 → 1.20.1-1.0.23
+- Create 6.0.6 → 6.0.8
+- Create Crafts & Additions 1.20.1-1.3.1 → 1.20.1-1.3.3
+- Distant Horizons 2.3.4-b → 2.3.6-b
+- EntityCulling 1.8.2 → 1.9.3
+- FancyMenu 3.7.0 → 3.8.1
+- Flywheel 1.0.4 → 1.0.5
+- Fzzy Config 0.7.2+1.20.1+forge → 0.7.3+1.20.1+forge
+- GeckoLib 4 4.7.4 → 4.8.2
+- Just Enough Items 15.20.0.112 → 15.20.0.127
+- Krypton FNP 0.2.23.1-lite → 0.2.24-lite
+- KumaAPI 20.1.11 → 20.1.12
+- ModernFix 5.24.4+mc1.20.1 → 5.25.1+mc1.20.1
+- [Moonlight Library](https://www.curseforge.com/minecraft/mc-mods/selene) 1.20-2.16.10 → 1.20-2.16.16
+- Ponder 1.0.80 → 1.0.91
+- SecurityCraft 1.10.0.1 → 1.10.1
+- [Supplementaries](https://www.curseforge.com/minecraft/mc-mods/supplementaries) 1.20-3.1.38 → 1.20-3.1.41
+- TRansition 1.0.3 → 1.0.8
+- Traveler's Backpack 9.1.41 → 9.1.46
+- TRender 1.0.5 → 1.0.8
+
+**Removed (1)**
+
+- HoldMyItems - Reforged 2.0
+
+
+## Config changes
+
+**Changed (9)**
+
+*AsyncParticles*
+
+- `asyncparticles/asyncparticles-mixin.properties`
+  - `particle$lockProvider`: `yesman.epicfight.client.particle.TrailParticle,com.dfdyz.epicacg.client.particle.BloomTrailParticle,com.brandon3055.draconicevolution.client.render.effect.ExplosionFX,com.brandon30…#880fa52a` → `yesman.epicfight.client.particle.TrailParticle,yesman.epicfight.client.particle.AbstractTrailParticle,com.dfdyz.epicacg.client.particle.BloomTrailParticle,com.brandon3055.draconice…#88f394e5`
+  - `particle$lockRequired`: `yesman.epicfight.client.particle.TrailParticle,com.dfdyz.epicacg.client.particle.BloomTrailParticle,com.brandon3055.draconicevolution.client.render.effect.ExplosionFX,com.brandon30…#8c84209a` → `yesman.epicfight.client.particle.TrailParticle,yesman.epicfight.client.particle.AbstractTrailParticle,com.dfdyz.epicacg.client.particle.BloomTrailParticle,com.brandon3055.draconice…#6c3d5c96`
+- `asyncparticles/asyncparticles.json`
+  - `rendering.syncParticleClasses`: - → `["com.lootbeams.VFXParticle","ovh.corail.tombstone.particle.ParticleCasting","ovh.corail.tombstone.particle.ParticleGhost","ovh.corail.tombstone.particle.ParticleGraveSoul","ovh.co…#3e2806da`
+  - `tick.deferredTextureTick`: - → `true`
+  - `tick.syncParticleClasses`: - → `[]`
+
+*Distant Horizons*
+
+- `DistantHorizons.toml`
+  - `client.advanced.graphics.quality.lodBiomeBlending`: - → `3`
+  - `common.worldGenerator.generationProgressIncludeChunksPerSecond`: - → `true`
+  - `server.globalBandwidthLimit`: - → `0`
+  - `server.playerBandwidthLimit`: - → `500`
+
+*FancyMenu*
+
+- `fancymenu/options.txt`
+  - `enable_element_rotation_controls`: - → `'true';`
+  - `enable_element_tilting_controls`: - → `'true';`
+- `fancymenu/ui_themes/dark.json`
+  - `actions_chain_indicator_color.hex`: - → `#587096B4`
+  - `actions_chain_indicator_hovered_color.hex`: - → `#64B5F6D2`
+  - `actions_chain_indicator_selected_color.hex`: - → `#FFC147DC`
+  - `actions_entry_background_color_action.hex`: - → `#3A3F44FF`
+  - `actions_entry_background_color_action_hover.hex`: - → `#44494EFF`
+  - `actions_entry_background_color_else.hex`: - → `#4E3721FF`
+  - `actions_entry_background_color_else_hover.hex`: - → `#5F462DFF`
+  - `actions_entry_background_color_else_if.hex`: - → `#392D4FFF`
+  - `actions_entry_background_color_else_if_hover.hex`: - → `#463A5FFF`
+  - `actions_entry_background_color_folder.hex`: - → `#50303CFF`
+  - `actions_entry_background_color_folder_hover.hex`: - → `#613E4DFF`
+  - `actions_entry_background_color_generic_block.hex`: - → `#3A3B3EFF`
+  - `actions_entry_background_color_generic_block_hover.hex`: - → `#47484CFF`
+  - `actions_entry_background_color_if.hex`: - → `#263F55FF`
+  - `actions_entry_background_color_if_hover.hex`: - → `#2D516EFF`
+  - `actions_entry_background_color_while.hex`: - → `#234A42FF`
+  - `actions_entry_background_color_while_hover.hex`: - → `#2D5C52FF`
+  - `actions_minimap_background_color.hex`: - → `#181B20C8`
+  - `actions_minimap_border_color.hex`: - → `#5E636CDC`
+  - `actions_minimap_tooltip_border_color.hex`: - → `#78AADCDC`
+  - `actions_minimap_viewport_border_color.hex`: - → `#D2DEFF64`
+  - `actions_minimap_viewport_color.hex`: - → `#FFFFFF23`
+  - `layout_editor_element_border_display_line_background_color.hex`: - → `#00000080`
+  - `layout_editor_element_border_display_line_text_color.hex`: - → `#FFFFFFFF`
+  - `layout_editor_element_border_horizontal_tilting_controls_color.hex`: - → `#91FF2BFF`
+  - `layout_editor_element_border_rotation_controls_color.hex`: - → `#9E2BFFFF`
+  - `layout_editor_element_border_vertical_tilting_controls_color.hex`: - → `#FFB52BFF`
+- `fancymenu/ui_themes/light.json`
+  - `actions_chain_indicator_color.hex`: - → `#8CAAD296`
+  - `actions_chain_indicator_hovered_color.hex`: - → `#6895D7BE`
+  - `actions_chain_indicator_selected_color.hex`: - → `#DCA236D2`
+  - `actions_entry_background_color_action.hex`: - → `#E0E0E0FF`
+  - `actions_entry_background_color_action_hover.hex`: - → `#CECECEFF`
+  - `actions_entry_background_color_else.hex`: - → `#F3E1C7FF`
+  - `actions_entry_background_color_else_hover.hex`: - → `#E5D1B6FF`
+  - `actions_entry_background_color_else_if.hex`: - → `#E9D7F0FF`
+  - `actions_entry_background_color_else_if_hover.hex`: - → `#D8C6E3FF`
+  - `actions_entry_background_color_folder.hex`: - → `#F2D5DBFF`
+  - `actions_entry_background_color_folder_hover.hex`: - → `#E6C7CEFF`
+  - `actions_entry_background_color_generic_block.hex`: - → `#E5E5E5FF`
+  - `actions_entry_background_color_generic_block_hover.hex`: - → `#D2D2D2FF`
+  - `actions_entry_background_color_if.hex`: - → `#C9DBEFFF`
+  - `actions_entry_background_color_if_hover.hex`: - → `#B8CEE8FF`
+  - `actions_entry_background_color_while.hex`: - → `#CCEBE3FF`
+  - `actions_entry_background_color_while_hover.hex`: - → `#BCDED4FF`
+  - `actions_minimap_background_color.hex`: - → `#ECECECC8`
+  - `actions_minimap_border_color.hex`: - → `#ACACACDC`
+  - `actions_minimap_tooltip_border_color.hex`: - → `#78AADCDC`
+  - `actions_minimap_viewport_border_color.hex`: - → `#D2DEFF64`
+  - `actions_minimap_viewport_color.hex`: - → `#5050503C`
+  - `layout_editor_element_border_display_line_background_color.hex`: - → `#00000080`
+  - `layout_editor_element_border_display_line_text_color.hex`: - → `#FFFFFFFF`
+  - `layout_editor_element_border_horizontal_tilting_controls_color.hex`: - → `#91FF2BFF`
+  - `layout_editor_element_border_rotation_controls_color.hex`: - → `#9E2BFFFF`
+  - `layout_editor_element_border_vertical_tilting_controls_color.hex`: - → `#FFB52BFF`
+
+*Just Enough Items*
+
+- `jei/jei-client.ini`
+  - `lookupHistory.DisplaySide`: - → `LEFT`
+  - `lookupHistory.Enabled`: - → `false`
+  - `lookupHistory.MaxIngredients`: - → `100`
+  - `lookupHistory.MaxRows`: - → `2`
+
+*SecurityCraft*
+
+- `securitycraft-client.toml`
+  - `debug_camera_reset_tracing`: - → `false`
+
+*Supplementaries*
+
+- `supplementaries-client.toml`
+  - `general.unfunny`: - → `false`
+
+**Added (1)**
+
+*Krypton FNP*
+
+- `krypton_fnp.yaml`
+
+

@@ -1,0 +1,42 @@
+# Modpack changelog
+
+_Generated automatically by What Changed? on 2026-11-06 09:26._
+
+Changes since 2026-11-06 09:20 (detected 2026-11-06 09:22)
+
+## Mods
+
+**Added (9)**
+
+- Create Crafts & Additions 1.20.1-1.3.1
+- Create Deco 2.0.3-1.20.1-forge
+- Create Encased 1.7.2-fix1
+- Create: Interiors 0.5.6
+- Create: More Automation 0.3.0
+- Create: Steam 'n' Rails 1.6.13-alpha+forge-mc1.20.1
+- Create: Structures 0.1.1
+- Krypton FNP 0.2.23.1-lite
+- Timeless & Classics Guns: Zero 1.1.6-hotfix
+
+
+## Config changes
+
+**Added (6)**
+
+*Create Crafts & Additions*
+
+- `createaddition-common.toml`
+
+*Create Encased*
+
+- `createcasing-common.toml`
+
+*Create: Steam 'n' Rails*
+
+- `railways-client.toml`
+- `railways-common.toml`
+
+*Timeless & Classics Guns: Zero*
+
+- `tacz-client.toml`
+- `tacz-common.toml`
