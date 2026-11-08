@@ -1,7 +1,0 @@
-# Modpack changelog
-
-_Generated automatically by What Changed? on 2026-11-08 15:03._
-
-Changes since 2026-11-08 14:57 (detected 2026-11-08 15:03)
-
-- **Mod loader** Forge 47.4.20 → 47.4.28 · [changelog](https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.28/forge-1.20.1-47.4.28-changelog.txt)
