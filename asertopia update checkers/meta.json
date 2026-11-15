@@ -116,12 +116,8 @@
       "releasedAt": 1792945365000
     },
     {
-      "id": "2.9.5",
-      "releasedAt": 1792945365000,
-    },
-    {
       "id": "3.0-B",
-      "releasedAt": 1792945365000,
+      "releasedAt": 1794767422000
       "promotions": {
         "downloads": {
           "modrinth": "https://modrinth.com/modpack/asertopia/versions"
