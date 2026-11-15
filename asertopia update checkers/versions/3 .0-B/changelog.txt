@@ -1,1 +1,287 @@
-wait
+# Modpack changelog
+
+_Generated automatically by What Changed? on 2026-11-15 19:16._
+
+Changes since 2026-11-15 18:30 (detected 2026-11-15 19:16)
+
+## Mods
+
+**Added (20)**
+
+- Better Ping Display 1.1
+- Chat Heads 0.15.7
+- Cobweb 1.0.1
+- CommonGroovyLibrary 0.3.3
+- Concrete Lib 1.0.0
+- Controlling 12.0.2
+- Cubes Without Borders 5.0.0+1.20.0.forge
+- Durability Tooltip 1.2.0
+- Eating Animation 5.1.0
+- Entity Sound Features 0.8.2
+- [Every Compat](https://www.curseforge.com/minecraft/mc-mods/every-compat) 1.20-2.9.29
+- GroovyModLoader 4.0.10
+- Harvest with ease 9.4.0
+- ItemPhysic 1.8.17
+- Lighty 2.1.3+1.20.1
+- Lootr 0.7.35.94
+- Reflex AntiLag 1.0.4+mc1.20.1
+- Searchables 1.0.3
+- Sound Physics Remastered 1.20.1-1.5.1
+- SuperMartijn642's Config Library 1.1.8
+
+**Updated (22)**
+
+- All The Leaks 1.1.4+1.20.1-forge → 1.1.5+1.20.1-forge
+- Applied Energistics 2 15.4.11 → 15.4.12
+- AsyncParticles 20.1.4.4 → 20.1.4.6
+- Create: Testosterone 2.0.1 → 2.0.2
+- CreativeCore 2.12.40 → 2.12.42
+- Entity Model Features 3.2.4 → 3.3.12
+- Entity Texture Features 7.1 → 7.2.7
+- EntityCulling 1.11.3 → 1.12.1
+- FancyMenu 3.9.14 → 3.10.0
+- Just Enough Items 15.74.0.230 → 15.74.0.234
+- MezzConfig 0.6.6 → 0.7.1
+- ModernFix 5.27.91+mc1.20.1 → 5.27.93+mc1.20.1
+- [Moonlight Library](https://www.curseforge.com/minecraft/mc-mods/selene) 1.20-2.16.37 → 1.20-2.16.39
+- NotEnoughAnimations 1.12.6 → 1.12.7
+- Simple Voice Chat 1.20.1-2.6.26 → 1.20.1-2.6.27
+- Simple Voice Chat API 2.6.25 → 2.6.27
+- SimpleBedrockModel 2.2.2-forge+mc1.20.1 → 2.6.3-forge-mc1.20.1
+- SkinRestorer 2.11.0+1.20-forge → 2.11.1+1.20-forge
+- Smokeleaf Industries 0.7-1.20.1 → 0.7.2-1.20.1
+- [Supplementaries](https://www.curseforge.com/minecraft/mc-mods/supplementaries) 1.20-3.1.44 → 1.20-3.1.45
+- Timeless & Classics Guns: Zero 1.1.8-hotfix2 → 1.2.0-hotfix
+- TRansition 1.0.26 → 1.0.28
+
+## Config changes
+
+**Changed (11)**
+
+*Alex's Caves*
+
+- `alexscaves-client.toml`
+  - `visuals.biome_ambient_light_coloring`: `true` → `false`
+
+*Distant Horizons*
+
+- `DistantHorizons.toml`
+  - `client.advanced.debugging.rendererMode`: `DEFAULT` → `DISABLED`
+  - `server.serverId`: `-40455834` → `-151494284`
+
+*Entity Model Features*
+
+- `entity_model_features.json`
+  - `parrotShoulderPositionAnimatesByDefault`: - → `true`
+
+*Entity Texture Features*
+
+- `entity_texture_features.json`
+  - `stackDebugPrinting`: - → `false`
+
+*FancyMenu*
+
+- `fancymenu/customization/title_screen_layout.txt`
+  - `executable_block:0e891dcd-43a6-4e94-8704-977e6adb3553-1757954795744][type:generic] = [executables:.vanilla_button.nine_slice_border_x`: `5` → -
+  - `executable_block:0e891dcd-43a6-4e94-8704-977e6adb3553-1757954795744][type:generic] = [executables:.vanilla_button.nine_slice_border_y`: `5` → -
+  - `executable_block:0e891dcd-43a6-4e94-8704-977e6adb3553-1757954795744][type:generic] = [executables:.vanilla_button.transparent_background`: - → `false`
+  - `executable_block:0e891dcd-43a6-4e94-8704-977e6adb3553-1757954795744][type:generic] = [executables:.vanilla_button.underline_label_on_hover`: - → `false`
+  - `executable_block:16b4adc2-990b-4759-abd8-d6bda0b626a8-1757954795744][type:generic] = [executables:.vanilla_button.nine_slice_border_x`: `5` → -
+  - `executable_block:16b4adc2-990b-4759-abd8-d6bda0b626a8-1757954795744][type:generic] = [executables:.vanilla_button.nine_slice_border_y`: `5` → -
+  - `executable_block:16b4adc2-990b-4759-abd8-d6bda0b626a8-1757954795744][type:generic] = [executables:.vanilla_button.transparent_background`: - → `false`
+  - `executable_block:16b4adc2-990b-4759-abd8-d6bda0b626a8-1757954795744][type:generic] = [executables:.vanilla_button.underline_label_on_hover`: - → `false`
+  - `executable_block:289c2d49-ce5e-47ea-8200-846636e560dc-1758117064268][type:generic] = [executables:.vanilla_button.nine_slice_border_x`: `5` → -
+  - `executable_block:289c2d49-ce5e-47ea-8200-846636e560dc-1758117064268][type:generic] = [executables:.vanilla_button.nine_slice_border_y`: `5` → -
+  - `executable_block:289c2d49-ce5e-47ea-8200-846636e560dc-1758117064268][type:generic] = [executables:.vanilla_button.transparent_background`: - → `false`
+  - `executable_block:289c2d49-ce5e-47ea-8200-846636e560dc-1758117064268][type:generic] = [executables:.vanilla_button.underline_label_on_hover`: - → `false`
+  - `executable_block:3da802f3-7b94-4ed1-ab3a-c9e06e75a713-1757954795744][type:generic] = [executables:.vanilla_button.nine_slice_border_x`: `5` → -
+  - `executable_block:3da802f3-7b94-4ed1-ab3a-c9e06e75a713-1757954795744][type:generic] = [executables:.vanilla_button.nine_slice_border_y`: `5` → -
+  - `executable_block:3da802f3-7b94-4ed1-ab3a-c9e06e75a713-1757954795744][type:generic] = [executables:.vanilla_button.transparent_background`: - → `false`
+  - `executable_block:3da802f3-7b94-4ed1-ab3a-c9e06e75a713-1757954795744][type:generic] = [executables:.vanilla_button.underline_label_on_hover`: - → `false`
+  - `executable_block:40f75745-0307-42de-80eb-ca7a2956cf47-1757954795744][type:generic] = [executables:.vanilla_button.nine_slice_border_x`: `5` → -
+  - `executable_block:40f75745-0307-42de-80eb-ca7a2956cf47-1757954795744][type:generic] = [executables:.vanilla_button.nine_slice_border_y`: `5` → -
+  - `executable_block:40f75745-0307-42de-80eb-ca7a2956cf47-1757954795744][type:generic] = [executables:.vanilla_button.transparent_background`: - → `false`
+  - `executable_block:40f75745-0307-42de-80eb-ca7a2956cf47-1757954795744][type:generic] = [executables:.vanilla_button.underline_label_on_hover`: - → `false`
+  - `executable_block:433a732e-5a9b-4f91-80d8-2395f82a18f9-1793501213008][type:generic] = [executables:df615087-d624-42e2-8fb8-bd6071bc6283-1793501301576;.element.hoverlabel`: - → `asertopia.estrogen.fr`
+  - `executable_block:433a732e-5a9b-4f91-80d8-2395f82a18f9-1793501213008][type:generic] = [executables:df615087-d624-42e2-8fb8-bd6071bc6283-1793501301576;.element.label`: - → `Rejoindre Asertopia`
+  - `executable_block:433a732e-5a9b-4f91-80d8-2395f82a18f9-1793501213008][type:generic] = [executables:df615087-d624-42e2-8fb8-bd6071bc6283-1793501301576;.element.navigatable`: - → `true`
+  - `executable_block:433a732e-5a9b-4f91-80d8-2395f82a18f9-1793501213008][type:generic] = [executables:df615087-d624-42e2-8fb8-bd6071bc6283-1793501301576;.element.nine_slice_custom_background`: - → `false`
+  - `executable_block:433a732e-5a9b-4f91-80d8-2395f82a18f9-1793501213008][type:generic] = [executables:df615087-d624-42e2-8fb8-bd6071bc6283-1793501301576;.element.restartbackgroundanimations`: - → `true`
+  - `executable_block:433a732e-5a9b-4f91-80d8-2395f82a18f9-1793501213008][type:generic] = [executables:df615087-d624-42e2-8fb8-bd6071bc6283-1793501301576;.element.transparent_background`: - → `false`
+  - `executable_block:433a732e-5a9b-4f91-80d8-2395f82a18f9-1793501213008][type:generic] = [executables:df615087-d624-42e2-8fb8-bd6071bc6283-1793501301576;.element.underline_label_on_hover`: - → `false`
+  - `executable_block:433a732e-5a9b-4f91-80d8-2395f82a18f9-1793501213008][type:generic] = [executables:df615087-d624-42e2-8fb8-bd6071bc6283-1793501301576;.element.widget_active_state_requirement_container_identifier`: - → `2ff2c941-57c1-4221-a178-c7534dda1f61-1793501213008`
+  - `executable_block:43c71cfa-8bff-46cc-96cd-43050e784682-1757954795744][type:generic] = [executables:.vanilla_button.nine_slice_border_x`: `5` → -
+  - `executable_block:43c71cfa-8bff-46cc-96cd-43050e784682-1757954795744][type:generic] = [executables:.vanilla_button.nine_slice_border_y`: `5` → -
+  - `executable_block:43c71cfa-8bff-46cc-96cd-43050e784682-1757954795744][type:generic] = [executables:.vanilla_button.transparent_background`: - → `false`
+  - `executable_block:43c71cfa-8bff-46cc-96cd-43050e784682-1757954795744][type:generic] = [executables:.vanilla_button.underline_label_on_hover`: - → `false`
+  - `executable_block:4cb31034-12b2-44fe-b748-aa329c646ae7-1757954795744][type:generic] = [executables:.vanilla_button.description`: - → `test`
+  - `executable_block:4cb31034-12b2-44fe-b748-aa329c646ae7-1757954795744][type:generic] = [executables:.vanilla_button.nine_slice_border_x`: `5` → -
+  - `executable_block:4cb31034-12b2-44fe-b748-aa329c646ae7-1757954795744][type:generic] = [executables:.vanilla_button.nine_slice_border_y`: `5` → -
+  - `executable_block:4cb31034-12b2-44fe-b748-aa329c646ae7-1757954795744][type:generic] = [executables:.vanilla_button.transparent_background`: - → `false`
+  - `executable_block:4cb31034-12b2-44fe-b748-aa329c646ae7-1757954795744][type:generic] = [executables:.vanilla_button.underline_label_on_hover`: - → `false`
+  - `executable_block:503d5e4e-9e5e-4905-8222-67b677be8b08-1764430199021][type:generic] = [executables:.vanilla_button.nine_slice_border_x`: `5` → -
+  - `executable_block:503d5e4e-9e5e-4905-8222-67b677be8b08-1764430199021][type:generic] = [executables:.vanilla_button.nine_slice_border_y`: `5` → -
+  - `executable_block:503d5e4e-9e5e-4905-8222-67b677be8b08-1764430199021][type:generic] = [executables:.vanilla_button.transparent_background`: - → `false`
+  - `executable_block:503d5e4e-9e5e-4905-8222-67b677be8b08-1764430199021][type:generic] = [executables:.vanilla_button.underline_label_on_hover`: - → `false`
+  - `executable_block:57a1b28a-6118-45f5-9704-64b5d2bb3bca-1757954795744][type:generic] = [executables:.vanilla_button.hoverlabel`: `(traitre)` → `Bonne journée`
+  - `executable_block:57a1b28a-6118-45f5-9704-64b5d2bb3bca-1757954795744][type:generic] = [executables:.vanilla_button.label`: `quitter asertopia` → `Fermer Asertopia`
+  - `executable_block:57a1b28a-6118-45f5-9704-64b5d2bb3bca-1757954795744][type:generic] = [executables:.vanilla_button.nine_slice_border_x`: `5` → -
+  - `executable_block:57a1b28a-6118-45f5-9704-64b5d2bb3bca-1757954795744][type:generic] = [executables:.vanilla_button.nine_slice_border_y`: `5` → -
+  - `executable_block:57a1b28a-6118-45f5-9704-64b5d2bb3bca-1757954795744][type:generic] = [executables:.vanilla_button.transparent_background`: - → `false`
+  - `executable_block:57a1b28a-6118-45f5-9704-64b5d2bb3bca-1757954795744][type:generic] = [executables:.vanilla_button.underline_label_on_hover`: - → `false`
+  - `executable_block:7e47fb42-4de8-4e6c-9d33-9c9cf1f12a17-1794155894961][type:generic] = [executables:.vanilla_button.navigatable`: - → `true`
+  - `executable_block:7e47fb42-4de8-4e6c-9d33-9c9cf1f12a17-1794155894961][type:generic] = [executables:.vanilla_button.nine_slice_custom_background`: - → `false`
+  - `executable_block:7e47fb42-4de8-4e6c-9d33-9c9cf1f12a17-1794155894961][type:generic] = [executables:.vanilla_button.restartbackgroundanimations`: - → `true`
+  - `executable_block:7e47fb42-4de8-4e6c-9d33-9c9cf1f12a17-1794155894961][type:generic] = [executables:.vanilla_button.transparent_background`: - → `false`
+  - `executable_block:7e47fb42-4de8-4e6c-9d33-9c9cf1f12a17-1794155894961][type:generic] = [executables:.vanilla_button.underline_label_on_hover`: - → `false`
+  - `executable_block:7e47fb42-4de8-4e6c-9d33-9c9cf1f12a17-1794155894961][type:generic] = [executables:.vanilla_button.widget_active_state_requirement_container_identifier`: - → `72de87c7-13d6-4cfe-985a-657e8362c7e3-1794155894961`
+  - `executable_block:8b7d51ef-c8fe-4b28-bb5a-44b3e9a6e02d-1794156203941][type:generic] = [executables:4a853072-af34-4859-8a6f-8f044aaaad89-1794156341896;.element.label`: - → `Changelog`
+  - `executable_block:8b7d51ef-c8fe-4b28-bb5a-44b3e9a6e02d-1794156203941][type:generic] = [executables:4a853072-af34-4859-8a6f-8f044aaaad89-1794156341896;.element.navigatable`: - → `true`
+  - `executable_block:8b7d51ef-c8fe-4b28-bb5a-44b3e9a6e02d-1794156203941][type:generic] = [executables:4a853072-af34-4859-8a6f-8f044aaaad89-1794156341896;.element.nine_slice_custom_background`: - → `false`
+  - `executable_block:8b7d51ef-c8fe-4b28-bb5a-44b3e9a6e02d-1794156203941][type:generic] = [executables:4a853072-af34-4859-8a6f-8f044aaaad89-1794156341896;.element.restartbackgroundanimations`: - → `true`
+  - `executable_block:8b7d51ef-c8fe-4b28-bb5a-44b3e9a6e02d-1794156203941][type:generic] = [executables:4a853072-af34-4859-8a6f-8f044aaaad89-1794156341896;.element.transparent_background`: - → `false`
+  - `executable_block:8b7d51ef-c8fe-4b28-bb5a-44b3e9a6e02d-1794156203941][type:generic] = [executables:4a853072-af34-4859-8a6f-8f044aaaad89-1794156341896;.element.underline_label_on_hover`: - → `false`
+  - `executable_block:8b7d51ef-c8fe-4b28-bb5a-44b3e9a6e02d-1794156203941][type:generic] = [executables:4a853072-af34-4859-8a6f-8f044aaaad89-1794156341896;.element.widget_active_state_requirement_container_identifier`: - → `42e26e4a-f4e1-4fca-8e49-9d2f049a0dcd-1794156203941`
+  - `executable_block:bc325b9b-0550-45f7-87f4-d89670875385-1757954795744][type:generic] = [executables:.vanilla_button.nine_slice_border_x`: `5` → -
+  - `executable_block:bc325b9b-0550-45f7-87f4-d89670875385-1757954795744][type:generic] = [executables:.vanilla_button.nine_slice_border_y`: `5` → -
+  - `executable_block:bc325b9b-0550-45f7-87f4-d89670875385-1757954795744][type:generic] = [executables:.vanilla_button.transparent_background`: - → `false`
+  - `executable_block:bc325b9b-0550-45f7-87f4-d89670875385-1757954795744][type:generic] = [executables:.vanilla_button.underline_label_on_hover`: - → `false`
+  - `executable_block:bd9a21ef-d26c-4925-819b-bc3f6aca7864-1757954795744][type:generic] = [executables:.vanilla_button.nine_slice_border_x`: `5` → -
+  - `executable_block:bd9a21ef-d26c-4925-819b-bc3f6aca7864-1757954795744][type:generic] = [executables:.vanilla_button.nine_slice_border_y`: `5` → -
+  - `executable_block:bd9a21ef-d26c-4925-819b-bc3f6aca7864-1757954795744][type:generic] = [executables:.vanilla_button.transparent_background`: - → `false`
+  - `executable_block:bd9a21ef-d26c-4925-819b-bc3f6aca7864-1757954795744][type:generic] = [executables:.vanilla_button.underline_label_on_hover`: - → `false`
+  - `executable_block:c17e2793-f7da-4293-8983-74a60c318ef2-1758117064268][type:generic] = [executables:.vanilla_button.nine_slice_border_x`: `5` → -
+  - `executable_block:c17e2793-f7da-4293-8983-74a60c318ef2-1758117064268][type:generic] = [executables:.vanilla_button.nine_slice_border_y`: `5` → -
+  - `executable_block:c17e2793-f7da-4293-8983-74a60c318ef2-1758117064268][type:generic] = [executables:.vanilla_button.transparent_background`: - → `false`
+  - `executable_block:c17e2793-f7da-4293-8983-74a60c318ef2-1758117064268][type:generic] = [executables:.vanilla_button.underline_label_on_hover`: - → `false`
+  - `executable_block:c9bb7155-f399-488a-8b5d-b268821fa61b-1757954795744][type:generic] = [executables:.vanilla_button.nine_slice_border_x`: `5` → -
+  - `executable_block:c9bb7155-f399-488a-8b5d-b268821fa61b-1757954795744][type:generic] = [executables:.vanilla_button.nine_slice_border_y`: `5` → -
+  - `executable_block:c9bb7155-f399-488a-8b5d-b268821fa61b-1757954795744][type:generic] = [executables:.vanilla_button.transparent_background`: - → `false`
+  - `executable_block:c9bb7155-f399-488a-8b5d-b268821fa61b-1757954795744][type:generic] = [executables:.vanilla_button.underline_label_on_hover`: - → `false`
+  - `executable_block:cba5b955-8abd-45ae-afa7-ab94e71fb37c-1757954795744][type:generic] = [executables:.vanilla_button.nine_slice_border_x`: `5` → -
+  - `executable_block:cba5b955-8abd-45ae-afa7-ab94e71fb37c-1757954795744][type:generic] = [executables:.vanilla_button.nine_slice_border_y`: `5` → -
+  - `executable_block:cba5b955-8abd-45ae-afa7-ab94e71fb37c-1757954795744][type:generic] = [executables:.vanilla_button.transparent_background`: - → `false`
+  - `executable_block:cba5b955-8abd-45ae-afa7-ab94e71fb37c-1757954795744][type:generic] = [executables:.vanilla_button.underline_label_on_hover`: - → `false`
+  - `executable_block:ea360098-6dc6-400e-8a4c-7bb2b606064d-1757954795744][type:generic] = [executables:.vanilla_button.hoverlabel`: `graphique?` → -
+  - `executable_block:ea360098-6dc6-400e-8a4c-7bb2b606064d-1757954795744][type:generic] = [executables:.vanilla_button.nine_slice_border_x`: `5` → -
+  - `executable_block:ea360098-6dc6-400e-8a4c-7bb2b606064d-1757954795744][type:generic] = [executables:.vanilla_button.nine_slice_border_y`: `5` → -
+  - `executable_block:ea360098-6dc6-400e-8a4c-7bb2b606064d-1757954795744][type:generic] = [executables:.vanilla_button.transparent_background`: - → `false`
+  - `executable_block:ea360098-6dc6-400e-8a4c-7bb2b606064d-1757954795744][type:generic] = [executables:.vanilla_button.underline_label_on_hover`: - → `false`
+  - `executable_block:ef83697f-42f9-4a53-aac0-5a07042c74b0-1757954795744][type:generic] = [executables:.vanilla_button.nine_slice_border_x`: `5` → -
+  - `executable_block:ef83697f-42f9-4a53-aac0-5a07042c74b0-1757954795744][type:generic] = [executables:.vanilla_button.nine_slice_border_y`: `5` → -
+  - `executable_block:ef83697f-42f9-4a53-aac0-5a07042c74b0-1757954795744][type:generic] = [executables:.vanilla_button.transparent_background`: - → `false`
+  - `executable_block:ef83697f-42f9-4a53-aac0-5a07042c74b0-1757954795744][type:generic] = [executables:.vanilla_button.underline_label_on_hover`: - → `false`
+  - `layout-meta.last_edited_time`: `1764430301108` → `1794156572579`
+  - `loading_requirement_container_meta:03080720-e045-4eae-a5a9-7693ca48d446-1757954795743] = [groups:][instances:.vanilla_button.advanced_height`: - → `-2147483648`
+  - `loading_requirement_container_meta:03080720-e045-4eae-a5a9-7693ca48d446-1757954795743] = [groups:][instances:.vanilla_button.advanced_horizontal_tilt_degrees`: - → `0.0`
+  - `loading_requirement_container_meta:03080720-e045-4eae-a5a9-7693ca48d446-1757954795743] = [groups:][instances:.vanilla_button.advanced_posx`: - → `-2147483648`
+  - `loading_requirement_container_meta:03080720-e045-4eae-a5a9-7693ca48d446-1757954795743] = [groups:][instances:.vanilla_button.advanced_posy`: - → `-2147483648`
+  - `loading_requirement_container_meta:03080720-e045-4eae-a5a9-7693ca48d446-1757954795743] = [groups:][instances:.vanilla_button.advanced_rotation_degrees`: - → `0.0`
+  - `loading_requirement_container_meta:03080720-e045-4eae-a5a9-7693ca48d446-1757954795743] = [groups:][instances:.vanilla_button.advanced_vertical_tilt_degrees`: - → `0.0`
+  - `loading_requirement_container_meta:03080720-e045-4eae-a5a9-7693ca48d446-1757954795743] = [groups:][instances:.vanilla_button.advanced_width`: - → `-2147483648`
+  - `loading_requirement_container_meta:03080720-e045-4eae-a5a9-7693ca48d446-1757954795743] = [groups:][instances:.vanilla_button.appearance_delay_seconds`: - → `1.0`
+  - `loading_requirement_container_meta:03080720-e045-4eae-a5a9-7693ca48d446-1757954795743] = [groups:][instances:.vanilla_button.base_opacity`: - → `1.0`
+  - `loading_requirement_container_meta:03080720-e045-4eae-a5a9-7693ca48d446-1757954795743] = [groups:][instances:.vanilla_button.button_element_executable_block_identifier`: `bc325b9b-0550-45f7-87f4-d89670875385-1757954795744` → `16b4adc2-990b-4759-abd8-d6bda0b626a8-1757954795744`
+  - … and 1188 more
+- `fancymenu/options.txt`
+  - `F:global_button_click_sound_volume`: - → `'1.0';`
+  - `game_intro_ignore_animation_loops`: - → `'true';`
+  - `global_button_click_sound_channel`: - → `'master';`
+  - `show_achievement_toasts`: - → `'true';`
+  - `show_customization_overlay`: `'true';` → `'false';`
+
+*Modpack Update Checker*
+
+- `modpack-update-checker/config.json`
+  - `currentVersion`: `1.0.0` → `3.0-B`
+
+*NotEnoughAnimations*
+
+- `notenoughanimations.json`
+  - `configVersion`: `11` → `12`
+  - `mapHolding`: `["minecraft:filled_map","antiqueatlas:antique_atlas"]` → -
+
+*SecurityCraft*
+
+- `securitycraft-client.toml`
+  - `sayThanksMessage`: `true` → `false`
+
+*Timeless & Classics Guns: Zero*
+
+- `tacz-client.toml`
+  - `render.DisableThirdPersonOffhandAndHotbarGunRender`: - → `false`
+  - `render.EnableExperimentalDisplayGunVbo`: - → `true`
+  - `render.EnableExperimentalScopeLens`: - → `true`
+  - `render.EnableOcularInflate`: - → `true`
+  - `render.EnableScopeThermal`: - → `true`
+  - `render.EnableStaticItemGunVbo`: - → `true`
+  - `render.GunHurtBobMultiplier`: - → `0.1`
+  - `render.HitExtraParticleEnable`: - → `true`
+  - `render.HitParticleEnable`: - → `true`
+  - `render.HitParticleMaxDistance`: - → `64`
+  - `render.OcularInflate`: - → `5.0E-4`
+  - `render.RenderCreativePackSidebar`: - → `true`
+  - `render.RenderMuzzleSmoke`: - → `true`
+- `tacz-common.toml`
+  - `ammo.BulletDamageIgnoreList`: - → `["minecraft:painting", "minecraft:item_frame", "minecraft:glow_item_frame"]`
+  - `ammo.DestroyBlockHardnessThreshold`: - → `1.0`
+  - `ammo.DestroyBlocks`: - → `["#forge:glass", "#forge:glass_panes"]`
+  - `ammo.EnableBulletDamageIgnoreList`: - → `false`
+  - `ammo.IgnoreTeamFriendlyFire`: - → `false`
+  - `gun.DefaultGunSoundHostileMobAngerDistance`: - → `32`
+  - `gun.DefaultGunSoundNeutralMobAngerDistance`: - → `24`
+  - `gun.EnableGunSoundAnger`: - → `true`
+
+**Added (18)**
+
+*Better Ping Display*
+
+- `betterpingdisplay-client.toml`
+
+*Chat Heads*
+
+- `chat_heads.json5`
+
+*Durability Tooltip*
+
+- `durabilitytooltip-common.toml`
+
+*Entity Sound Features*
+
+- `entity_sound_features.json`
+
+*Every Compat*
+
+- `everycomp-client.toml`
+- `everycomp-common.toml`
+- `everycomp-entries.toml`
+- `everycomp-hazardous.toml`
+
+*GroovyModLoader*
+
+- `gml-script-mods.toml`
+
+*Harvest with ease*
+
+- `harvest_with_ease-common.toml`
+
+*Lighty*
+
+- `lighty.config`
+
+*Lootr*
+
+- `lootr-client.toml`
+- `lootr-common.toml`
+
+*SimpleBedrockModel*
+
+- `simplebedrockmodel-client.toml`
+
+*Sound Physics Remastered*
+
+- `sound_physics_remastered/occlusion.properties`
+- `sound_physics_remastered/reflectivity.properties`
+- `sound_physics_remastered/sound_rates.properties`
+- `sound_physics_remastered/soundphysics.properties`
+
