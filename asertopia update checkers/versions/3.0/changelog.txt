@@ -1,0 +1,55 @@
+# Modpack changelog
+
+_Generated automatically by What Changed? on 2026-11-22 13:18._
+
+Changes since 2026-11-22 12:54 (detected 2026-11-22 13:18)
+
+## Mods
+
+**Added (1)**
+
+- Create: Estrogen 1.0.1+1.20.1
+
+**Removed (1)**
+
+- Inventory Tweaks Refoxed 1.2.0
+
+## Items
+
+**New items (9)**
+
+*Create: Estrogen (9)*
+
+- Centrifuge `createestrogen:centrifuge`
+- Estrogen Pill Package `createestrogen:estrogen_cardboard_package_10x12`
+- Estrogen Pill Package `createestrogen:estrogen_cardboard_package_10x8`
+- Estrogen Pill Package `createestrogen:estrogen_cardboard_package_12x10`
+- Estrogen Pill Package `createestrogen:estrogen_cardboard_package_12x12`
+- Incomplete Estrogen Patch `createestrogen:incomplete_estrogen_patches`
+- Incomplete UwU `createestrogen:incomplete_uwu`
+- Rosy Maple Seat `createestrogen:moth_seat`
+- Used Filter `createestrogen:used_filter`
+
+## Config changes
+
+**Changed (2)**
+
+*Distant Horizons*
+
+- `DistantHorizons.toml`
+  - `common.logging.warning.showGarbageCollectorWarning`: `true` → `false`
+  - `common.logging.warning.showModCompatibilityWarningsOnStartup`: `true` → `false`
+
+*Modpack Update Checker*
+
+- `modpack-update-checker/config.json`
+  - `currentVersion`: `3.0-B` → `3.0`
+
+**Added (3)**
+
+*Create: Estrogen*
+
+- `createestrogen/client.toml`
+- `createestrogen/common.toml`
+- `createestrogen/server.toml`
+
