@@ -4,6 +4,10 @@
   "versions": [
         {
       "id": "3.0-B",
+      "releasedAt": 1794767422000
+        },
+        {
+      "id": "3.0-B",
       "releasedAt": 1792945365000,
       "promotions": {
         "downloads": {
